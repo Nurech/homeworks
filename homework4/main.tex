@@ -1,0 +1,44 @@
+%! Author = partsjoo
+%! Date = 14.04.2023
+
+\documentclass[12pt]{article} % here to clear compiler errors
+
+\input{settings}
+\input{config}
+\input{acronyms}
+
+\usepackage[backend=biber,
+  bibstyle=ieee,
+  citestyle=numeric-comp,
+%  citestyle=ieee,
+%  bibstyle=numeric,
+  urldate=iso,
+  seconds=true]{biblatex}
+\usepackage{enumerate}
+\usepackage{glossaries-extra}
+\usepackage{aguplus}
+\usepackage{cals} % here to clear compiler errors
+\addbibresource{ref.bib}
+\renewcommand*{\multicitedelim}{\addsemicolon\space} % use semicolon instead
+
+\begin{document}
+
+  \input{title}
+
+
+  \newpage
+  \clearpage
+  \phantomsection
+  \printacronyms
+
+  \newpage
+  \tableofcontents
+
+
+  \input{related_work}
+
+  \newpage
+  \printbibliography
+
+
+\end{document}
