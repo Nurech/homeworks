@@ -4,11 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="" />
+    <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework4/assets/class_size_supressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework4/assets/class_size_unsupressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework4/assets/data_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework4/assets/quality_models.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework4/assets/risk_after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework4/assets/risk_before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework4/assets/risk_meter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework4/assets/sample_data.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/acronyms.tex" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/acronyms.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/homework4.deid" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/homework4.deid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/ref.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/related_work.tex" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/related_work.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/settings.tex" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/settings.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/main.bbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.bcf" beforeDir="false" afterPath="$PROJECT_DIR$/main.bcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.blg" beforeDir="false" afterPath="$PROJECT_DIR$/main.blg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/main.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/main.toc" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -18,6 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2OQCCZcFAxCCF56D7FnS8MpOySf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,7 +58,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/partsjoo/IdeaProjects/homeworks/homework4/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -45,7 +79,7 @@
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework4" />
     </key>
   </component>
-  <component name="RunManager" selected="BibTeX.main bibliography">
+  <component name="RunManager" selected="LaTeX.main">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -144,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681483293168</updated>
-      <workItem from="1681483296319" duration="7177000" />
+      <workItem from="1681483296319" duration="19587000" />
     </task>
     <servers />
   </component>
