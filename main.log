@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  15 APR 2023 04:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  16 APR 2023 07:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2120,15 +2120,15 @@ Package pdftex.def Info: assets/countries_dist.png  used on input line 43.
  [4 <./assets/sample_data.png (PNG copy)>] [5 <./assets/age_dist.png (PNG copy)
 > <./assets/countries_dist.png (PNG copy)>]
 
-related_work.tex:109: Package acro Error: You've requested acronym `ico' on lin
-e 109 but you
+related_work.tex:108: Package acro Error: You've requested acronym `ico' on lin
+e 108 but you
 (acro)                apparently haven't defined it, yet!
 (acro)                Maybe you've misspelled `ico'?
 
 Type <return> to continue.
  ...                                              
                                                   
-l.109 ...where in middle of k=5 and l=10. \ac{ico}
+l.108 ...where in middle of k=5 and l=10. \ac{ico}
                                                   
 
 LaTeX does not know anything more about this error, sorry.
@@ -2140,24 +2140,24 @@ If that doesn't work, type X <return> to quit.
 <assets/anon_level.png, id=89, 706.64pt x 139.52126pt>
 File: assets/anon_level.png Graphic file (type png)
 <use assets/anon_level.png>
-Package pdftex.def Info: assets/anon_level.png  used on input line 114.
+Package pdftex.def Info: assets/anon_level.png  used on input line 113.
 (pdftex.def)             Requested size: 418.25368pt x 82.5808pt.
 [6]
 <assets/class_size_unsupressed.png, id=96, 556.0775pt x 225.84375pt>
 File: assets/class_size_unsupressed.png Graphic file (type png)
 <use assets/class_size_unsupressed.png>
 Package pdftex.def Info: assets/class_size_unsupressed.png  used on input line 
-155.
+154.
 (pdftex.def)             Requested size: 204.9466pt x 83.23694pt.
 <assets/class_size_supressed.png, id=97, 554.07pt x 226.8475pt>
 File: assets/class_size_supressed.png Graphic file (type png)
 <use assets/class_size_supressed.png>
 Package pdftex.def Info: assets/class_size_supressed.png  used on input line 16
-2.
+1.
 (pdftex.def)             Requested size: 204.9466pt x 83.90802pt.
  [7 <./assets/anon_level.png (PNG copy)> <./assets/class_size_unsupressed.png (
 PNG copy)> <./assets/class_size_supressed.png (PNG copy)>]
-Overfull \hbox (12.16293pt too wide) in paragraph at lines 183--184
+Overfull \hbox (12.16293pt too wide) in paragraph at lines 182--183
 []\T1/ptm/m/n/12 (-20) The av-er-age class size grew sub-stan-tially from 1.556
 38 (0.01553%) to 43.92283 (0.43885%),
  []
@@ -2165,12 +2165,12 @@ Overfull \hbox (12.16293pt too wide) in paragraph at lines 183--184
 <assets/quality_models.png, id=112, 839.135pt x 605.26125pt>
 File: assets/quality_models.png Graphic file (type png)
 <use assets/quality_models.png>
-Package pdftex.def Info: assets/quality_models.png  used on input line 193.
+Package pdftex.def Info: assets/quality_models.png  used on input line 192.
 (pdftex.def)             Requested size: 300.0pt x 216.38847pt.
 <assets/data_out.png, id=116, 1461.46pt x 454.69875pt>
 File: assets/data_out.png Graphic file (type png)
 <use assets/data_out.png>
-Package pdftex.def Info: assets/data_out.png  used on input line 207.
+Package pdftex.def Info: assets/data_out.png  used on input line 206.
 (pdftex.def)             Requested size: 418.25368pt x 130.12473pt.
 [8] [9 <./assets/quality_models.png (PNG copy)> <./assets/data_out.png (PNG cop
 y)>]
@@ -2189,10 +2189,20 @@ File: assets/risk_after.png Graphic file (type png)
 <use assets/risk_after.png>
 Package pdftex.def Info: assets/risk_after.png  used on input line 236.
 (pdftex.def)             Requested size: 204.9466pt x 129.11891pt.
-) [10
+ [10
 
  <./assets/risk_meter.png (PNG copy)> <./assets/risk_before.png (PNG copy)> <./
 assets/risk_after.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 256--263
+
+ []
+
+<assets/model.png, id=141, 1981.4025pt x 667.49374pt>
+File: assets/model.png Graphic file (type png)
+<use assets/model.png>
+Package pdftex.def Info: assets/model.png  used on input line 268.
+(pdftex.def)             Requested size: 418.25368pt x 140.90097pt.
+) [11 <./assets/model.png (PNG copy)>]
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 42
 .
 
@@ -2205,7 +2215,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [11] (C:/Users\partsjoo\IdeaProjects\homeworks\main.aux)
+ [12] (C:/Users\partsjoo\IdeaProjects\homeworks\main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: EC5AA8449054D44D3E8D91E1E98CC29D;1553.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2213,11 +2223,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55398 strings out of 476334
- 1107886 string characters out of 5786555
- 2008239 words of memory out of 5000000
- 74769 multiletter control sequences out of 15000+600000
- 557211 words of font info for 178 fonts, out of 8000000 for 9000
+ 55418 strings out of 476334
+ 1108176 string characters out of 5786555
+ 2008327 words of memory out of 5000000
+ 74780 multiletter control sequences out of 15000+600000
+ 557472 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,8n,121p,2285b,1861s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
@@ -2227,10 +2237,10 @@ nconsolata/Inconsolata-zi4r.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/times/utmb8a.pfb><C:/Users/partsjoo/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/partsjoo/AppData/Local/Programs
 /MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\main.pdf (11 pag
-es, 360746 bytes).
+Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\main.pdf (12 pag
+es, 445530 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 45692 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 45697 words of extra memory for PDF output out of 51595 (max. 10000000)
 
