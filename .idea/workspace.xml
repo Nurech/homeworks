@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="hw4">
-      <change afterPath="$PROJECT_DIR$/homework4/assets/model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework4/related_work.tex" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/related_work.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/main.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/homework4.deid" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/homework4.deid" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,28 +31,28 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/partsjoo/IdeaProjects/homeworks/homework4/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/partsjoo/IdeaProjects/homeworks/homework4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework4\assets" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework4" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework4\assets" />
     </key>
   </component>
   <component name="RunManager" selected="LaTeX.main">
@@ -180,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681483293168</updated>
       <workItem from="1681483296319" duration="20825000" />
-      <workItem from="1681536487483" duration="1036000" />
+      <workItem from="1681536487483" duration="1820000" />
     </task>
     <task id="LOCAL−00001" summary="hw4">
       <created>1681523770099</created>
@@ -194,7 +190,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1681536573951</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="hw4">
+      <created>1681619197185</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1681619197185</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
