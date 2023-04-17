@@ -1,0 +1,122 @@
+%! Author = partsjoo
+%! Date = 16.04.2023
+
+%! Author = partsjoo
+%! Date = 16.04.2023
+
+\newpage
+\section{Differential privacy of query Q1}
+
+Much like the Estonian e-voting system, the assumption is that a vote can not be withdrawn.
+After voting only re-voting is possible.
+And as stated by the task (and much like in realworld), the last vote counts.
+
+\begin{figure}[ht]
+  \begin{lstlisting}[language=sql]
+SELECT COUNT(*) FROM votes
+GROUP BY candidate;
+  \end{lstlisting}
+  \caption{Q1: The histogram of vote counts of all candidates.}
+  \label{fig:histogramQ1}
+\end{figure}
+\subsection{Choosing the epsilon}
+
+
+
+\subsubsection{What is the global sensitivity of the query Q1?}
+
+The global sensitivity of a query is the maximum possible change in the output of the query when a single entry in the dataset is changed. In the case of query Q1, it is a histogram of vote counts for all candidates. We will analyze the possible changes in the output when a single entry in the dataset is changed:
+
+\begin{enumerate}
+  \item A citizen adds a vote for one candidate: In this case, the vote count of one candidate will increase by 1, and
+  the vote count of another candidate remain the same.
+  \item A citizen changes their vote from one candidate to another: In this case, the vote count of one candidate will increase by 1, and the vote count of another candidate will decrease by 1.
+\end{enumerate}
+
+In both cases, the maximum change in the output is 1. Therefore, the global sensitivity of the query Q1 is 1:
+
+\begin{equation}
+  \Delta f(Q1) = 1
+\end{equation}
+
+
+
+
+
+\subsubsection{Which epsilon should be taken so that the probability of getting the correct result is at
+least 0.9?}
+
+  We are given that the probability of getting the correct result must be at least $0.9$. We need to find the value of the noise scale parameter $b$ for the Laplace distribution. Recall that for the Laplace distribution, the probability density function is given by:
+
+  \begin{equation}
+    f(x|\mu, b) = \frac{1}{2b} \exp\left(-\frac{|x - \mu|}{b}\right)
+  \end{equation}
+
+  where $\mu$ is the location parameter and $b$ is the scale parameter. We need to find $b$ such that the probability of the noisy result being equal to the true result is at least $0.9$.
+
+  Since we are using the Laplace mechanism with rounding, we need to find the probability of the noise being within $(-0.5, 0.5)$, which corresponds to rounding to the nearest integer. We can write this as:
+
+  \begin{equation}
+    \int_{-0.5}^{0.5} f(x|0, b) dx \geq 0.9
+  \end{equation}
+
+  Since the Laplace distribution is symmetric~\cite[294]{laplance} around the location parameter, we can write the integral as:
+
+  \begin{equation}
+    2 \int_0^{0.5} \frac{1}{2b} \exp\left(-\frac{x}{b}\right) dx \geq 0.9
+  \end{equation}
+
+  Divide both sides by $2$:
+
+  \begin{equation}
+    \int_0^{0.5} \frac{1}{2b} \exp\left(-\frac{x}{b}\right) dx \geq 0.45
+  \end{equation}
+
+  Let $u = \frac{x}{b}$, then $x = bu$ and $dx = bdu$. The integral becomes:
+
+  \begin{equation}
+    \int_0^{\frac{1}{2b}} \exp(-u) bdu \geq 0.45
+  \end{equation}
+
+  The integral of $\exp(-u)$ is $- \exp(-u)$. So, we can write:
+
+  \begin{equation}
+    -\exp(-u) \Big|_0^{\frac{1}{2b}} \geq 0.45
+  \end{equation}
+
+  Substitute the limits:
+
+  \begin{equation}
+    -(\exp(-\frac{1}{2b}) - 1) \geq 0.45
+  \end{equation}
+
+  Solve for $b$:
+
+  \begin{equation}
+    \exp(-\frac{1}{2b}) - 1 \leq -0.45
+  \end{equation}
+
+  \begin{equation}
+    \exp(-\frac{1}{2b}) \leq 0.55
+  \end{equation}
+
+  Take the natural logarithm of both sides:
+
+  \begin{equation}
+    -\frac{1}{2b} \leq \ln(0.55)
+  \end{equation}
+
+  Multiply both sides by $-2$ and invert the inequality:
+
+
+    \begin{equation}
+      \frac{1}{b} \geq -2\ln(0.55)
+    \end{equation}
+
+  Finally, find $b$:
+
+    \begin{equation}
+      b \leq \frac{1}{-2\ln(0.55)}
+    \end{equation}
+
+  To ensure the probability of getting the correct result is at least $0.9$, the noise scale parameter $b$ should be less than or equal to $\frac{1}{-2\ln(0.55)}$.

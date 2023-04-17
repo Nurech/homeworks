@@ -1,5 +1,5 @@
 %! Author = partsjoo
-%! Date = 14.04.2023
+%! Date = 16.04.2023
 
 % Institute of Computer Science thesis template
 % authors: Sven Laur, Liina Kamm, Tõnu Tamme
@@ -254,4 +254,24 @@
 \newcommand{\sentencecase}[1]{\caselower[e]{#1}\capitalize{\thestring}}
 
 \usepackage{subcaption}
-\usepackage{multicol}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{language=SQL,
+  basicstyle={\small\ttfamily},
+  belowskip=3mm,
+  breakatwhitespace=true,
+  breaklines=true,
+  classoffset=0,
+  columns=flexible,
+  commentstyle=\color{dkgreen},
+  framexleftmargin=0.25em,
+  frameshape={}{yy}{}{}, %To remove to vertical lines on left, set `frameshape={}{}{}{}`
+  keywordstyle=\color{blue},
+  numbers=none, %If you want line numbers, set `numbers=left`
+  numberstyle=\tiny\color{gray},
+  showstringspaces=false,
+  stringstyle=\color{mauve},
+  tabsize=3,
+  xleftmargin =1em
+}
