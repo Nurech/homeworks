@@ -4,8 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="hw4">
+    <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="hw5">
+      <change afterPath="$PROJECT_DIR$/homework5/assets/fig1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework5/assets/laplace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework5/q2.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework5/q3.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/hw5_main.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/hw5_main.bcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/hw5_main.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/hw5_main.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/hw5_main.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/hw5_main.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.bbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.bcf" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.bcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.blg" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.blg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/16APR23_hw4_parts.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/16APR23_hw4_parts.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/16APR23_homework4_parts.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/16APR23_homework4_parts.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/age_dist.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/age_dist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/anon_level.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/anon_level.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/attribute_weights.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/attribute_weights.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/class_size_supressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/class_size_supressed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/class_size_unsupressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/class_size_unsupressed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/countries_dist.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/countries_dist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/covid_19.csv" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/covid_19.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/data_out.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/data_out.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework4/assets/homework4.deid" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/homework4.deid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/model.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/quality_models.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/quality_models.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/risk_after.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/risk_after.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/risk_before.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/risk_before.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/risk_meter.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/risk_meter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/sample_data.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/sample_data.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/update_date_watermark.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/assets/update_date_watermark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/settings.tex" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/settings.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/acronyms.tex" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/acronyms.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/q1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/q1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/ref.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/settings.tex" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/settings.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/snippets.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.bbl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.bcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.blg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.toc" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +84,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/partsjoo/IdeaProjects/homeworks/homework4",
+    "last_opened_file_path": "C:/Users/partsjoo/IdeaProjects/homeworks/homework5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,8 +103,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework4" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework5" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework5\papers" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework5\assets" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework4\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework5\papers" />
     </key>
   </component>
   <component name="RunManager" selected="LaTeX.main">
@@ -73,8 +131,8 @@
         <compiler-path />
         <compiler-arguments />
         <envs />
-        <main-file>$PROJECT_DIR$/homework4/main.tex</main-file>
-        <aux-dir>$PROJECT_DIR$</aux-dir>
+        <main-file>$PROJECT_DIR$/homework5/main.tex</main-file>
+        <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
       </texify-bibtex>
       <method v="2" />
     </configuration>
@@ -108,15 +166,15 @@
         <viewer-command />
         <compiler-arguments />
         <envs />
-        <main-file>$PROJECT_DIR$/homework4/main.tex</main-file>
+        <main-file>$PROJECT_DIR$/homework5/main.tex</main-file>
         <output-path>$PROJECT_DIR$/out</output-path>
-        <auxil-path>$PROJECT_DIR$</auxil-path>
-        <compile-twice>false</compile-twice>
+        <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
+        <compile-twice>true</compile-twice>
         <output-format>PDF</output-format>
         <latex-distribution>MIKTEX</latex-distribution>
         <has-been-run>true</has-been-run>
         <bib-run-config>[BibTeX.main bibliography]</bib-run-config>
-        <makeindex-run-config>[Makeindex.main makeglossarieslite]</makeindex-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
       </texify>
       <method v="2" />
     </configuration>
@@ -132,38 +190,20 @@
     <configuration name="main makeglossarieslite" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-makeindex>
         <program>MAKEGLOSSARIESLITE</program>
-        <main-file>$PROJECT_DIR$/homework4/main.tex</main-file>
+        <main-file>$PROJECT_DIR$/homework5/main.tex</main-file>
         <command-line-args />
-        <work-dir>$PROJECT_DIR$</work-dir>
+        <work-dir>$PROJECT_DIR$/auxil</work-dir>
       </texify-makeindex>
       <method v="2" />
     </configuration>
-    <configuration name="update_date_watermark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework4/assets" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework4/assets/update_date_watermark.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="BibTeX.main bibliography" />
+      <item itemvalue="LaTeX.main" />
+      <item itemvalue="Makeindex.main makeglossarieslite" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="LaTeX.main" />
-        <item itemvalue="Python.update_date_watermark" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +217,9 @@
       <updated>1681483293168</updated>
       <workItem from="1681483296319" duration="20825000" />
       <workItem from="1681536487483" duration="1820000" />
+      <workItem from="1681648376020" duration="15312000" />
+      <workItem from="1681708645573" duration="25000" />
+      <workItem from="1682129388387" duration="14751000" />
     </task>
     <task id="LOCAL−00001" summary="hw4">
       <created>1681523770099</created>
@@ -196,17 +239,39 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1681619197185</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="hw4">
+      <created>1681648682156</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1681648682156</updated>
+    </task>
+    <task id="LOCAL−00005" summary="hw4">
+      <created>1681648745540</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1681648745540</updated>
+    </task>
+    <task id="LOCAL−00006" summary="hw5">
+      <created>1681701451898</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1681701451898</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hw4" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw4" />
+    <MESSAGE value="hw5" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/homeworks$copy_out_file.coverage" NAME="copy_out_file Coverage Results" MODIFIED="1681648728389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework4/assets" />
+    <SUITE FILE_PATH="coverage/homeworks$update_date_watermark__1_.coverage" NAME="update_date_watermark (1) Coverage Results" MODIFIED="1681648843731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework5/assets" />
     <SUITE FILE_PATH="coverage/homeworks$update_date_watermark.coverage" NAME="update_date_watermark Coverage Results" MODIFIED="1681483405947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework4/assets" />
   </component>
 </project>

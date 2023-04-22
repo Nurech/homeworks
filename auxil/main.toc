@@ -1,7 +1,10 @@
 \acswitchoff 
 \babel@toc {english}{}\relax 
-\contentsline {section}{List of Abbreviations and Terms}{2}{section*.1}%
-\contentsline {section}{\numberline {1}Differential privacy of query Q1}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Choosing the epsilon}{4}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}What is the global sensitivity of the query Q1?}{4}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Which epsilon should be taken so that the probability of getting the correct result is at least 0.9?}{4}{subsubsection.1.1.2}%
+\contentsline {section}{\numberline {1}Differential privacy of query Q1}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Choosing the epsilon}{3}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}What is the global sensitivity of the query Q1?}{3}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Which epsilon should be taken so that the probability of getting the correct result is at least 0.9?}{3}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Dealing with negative counts}{4}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Differential privacy of query Q2}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Choosing the epsilon}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}The goodness of epsilon}{6}{subsection.2.2}%

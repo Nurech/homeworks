@@ -45,6 +45,91 @@
       \verb https://doi.org/10.1007/978-0-387-32833-1_219
       \endverb
     \endentry
+    \entry{properties}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Properties of Differential Privacy - Programming Differential Privacy}
+      \field{title}{Programming Differential Privacy}
+      \verb{urlraw}
+      \verb https://programming-dp.com/ch4.html#post-processing
+      \endverb
+      \verb{url}
+      \verb https://programming-dp.com/ch4.html#post-processing
+      \endverb
+    \endentry
+    \entry{the_exponential}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Exponential Mechanism - Programming Differential Privacy}
+      \field{title}{Programming Differential Privacy}
+      \verb{urlraw}
+      \verb https://programming-dp.com/ch9 .html#equation-274ce7f7-b2d6-46cc-85e4-34d24cc412b4
+      \endverb
+      \verb{url}
+      \verb https://programming-dp.com/ch9%20.html#equation-274ce7f7-b2d6-46cc-85e4-34d24cc412b4
+      \endverb
+    \endentry
+    \entry{norm_Z}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{The normalization constant $Z$}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wolframalpha.com/input?i=%5Cexp%5Cleft%28%5Cfrac%7B4.605%2825+-+67%29%7D%7B2%7D%5Cright%29+%2B+%5Cexp%5Cleft%28%5Cfrac%7B4.605%2867+-+67%29%7D%7B2%7D%5Cright%29+%2B+%5Cexp%5Cleft%28%5Cfrac%7B4.605%2841+-+67%29%7D%7B2%7D%5Cright%29
+      \endverb
+      \verb{url}
+      \verb https://www.wolframalpha.com/input?i=%5Cexp%5Cleft%28%5Cfrac%7B4.605%2825+-+67%29%7D%7B2%7D%5Cright%29+%2B+%5Cexp%5Cleft%28%5Cfrac%7B4.605%2867+-+67%29%7D%7B2%7D%5Cright%29+%2B+%5Cexp%5Cleft%28%5Cfrac%7B4.605%2841+-+67%29%7D%7B2%7D%5Cright%29
+      \endverb
+    \endentry
+    \entry{10007322}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=82c4b0917203fa587776be19043c7dca}{%
+           family={Aitsam},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{82c4b0917203fa587776be19043c7dca}
+      \strng{fullhash}{82c4b0917203fa587776be19043c7dca}
+      \strng{bibnamehash}{82c4b0917203fa587776be19043c7dca}
+      \strng{authorbibnamehash}{82c4b0917203fa587776be19043c7dca}
+      \strng{authornamehash}{82c4b0917203fa587776be19043c7dca}
+      \strng{authorfullhash}{82c4b0917203fa587776be19043c7dca}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 International Conference on Emerging Trends in Electrical, Control, and Telecommunication Engineering (ETECTE)}
+      \field{title}{Differential Privacy Made Easy}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ETECTE55893.2022.10007322
+      \endverb
+    \endentry
+    \entry{norm_Z_prim}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{The normalization constant $Z'$}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wolframalpha.com/input?i=%5Cexp%5Cleft%28%5Cfrac%7B0.4605%2825+-+67%29%7D%7B2%7D%5Cright%29+%2B+%5Cexp%5Cleft%28%5Cfrac%7B0.4605%2867+-+67%29%7D%7B2%7D%5Cright%29+%2B+%5Cexp%5Cleft%28%5Cfrac%7B0.4605%2841+-+67%29%7D%7B2%7D%5Cright
+      \endverb
+      \verb{url}
+      \verb https://www.wolframalpha.com/input?i=%5Cexp%5Cleft%28%5Cfrac%7B0.4605%2825+-+67%29%7D%7B2%7D%5Cright%29+%2B+%5Cexp%5Cleft%28%5Cfrac%7B0.4605%2867+-+67%29%7D%7B2%7D%5Cright%29+%2B+%5Cexp%5Cleft%28%5Cfrac%7B0.4605%2841+-+67%29%7D%7B2%7D%5Cright
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -5,23 +5,20 @@
 %! Date = 16.04.2023
 
 \newpage
+
+
 \section{Differential privacy of query Q1}
 
-Much like the Estonian e-voting system, the assumption is that a vote can not be withdrawn.
-After voting only re-voting is possible.
-And as stated by the task (and much like in realworld), the last vote counts.
-
 \begin{figure}[ht]
-  \begin{lstlisting}[language=sql]
+  \begin{lstlisting}[language=sql,label={lst:lstlisting}]
 SELECT COUNT(*) FROM votes
 GROUP BY candidate;
   \end{lstlisting}
   \caption{Q1: The histogram of vote counts of all candidates.}
   \label{fig:histogramQ1}
 \end{figure}
-\subsection{Choosing the epsilon}
 
-
+\subsection{Choosing the epsilon}\label{subsec:choosing-the-epsilon}
 
 \subsubsection{What is the global sensitivity of the query Q1?}
 
@@ -40,83 +37,72 @@ In both cases, the maximum change in the output is 1. Therefore, the global sens
 \end{equation}
 
 
-
-
-
 \subsubsection{Which epsilon should be taken so that the probability of getting the correct result is at
 least 0.9?}
 
-  We are given that the probability of getting the correct result must be at least $0.9$. We need to find the value of the noise scale parameter $b$ for the Laplace distribution. Recall that for the Laplace distribution, the probability density function is given by:
+We are given that the probability of getting the correct result must be at least $0.9$. We need to find the value of the noise scale parameter $b$ for the Laplace distribution. Recall that for the Laplace distribution, the probability density function is given by:
 
-  \begin{equation}
-    f(x|\mu, b) = \frac{1}{2b} \exp\left(-\frac{|x - \mu|}{b}\right)
-  \end{equation}
+\begin{equation}
+  f(x|\mu, b) = \frac{1}{2b} \exp\left(-\frac{|x - \mu|}{b}\right)
+\end{equation}
 
-  where $\mu$ is the location parameter and $b$ is the scale parameter. We need to find $b$ such that the probability of the noisy result being equal to the true result is at least $0.9$.
+where $\mu$ is the location parameter and $b$ is the scale parameter. We need to find $b$ such that the probability of the noisy result
+being equal to the true result is at least $0.9$. Since we are using the Laplace mechanism with rounding, we need to find the probability of the noise being within $(-0.5, 0.5)$, which corresponds to rounding to the nearest integer. Since the Laplace distribution is symmetric~\cite[294]{laplance}
+around the location parameter, can find the scale parameter ($b$) that corresponds to the desired probability:
 
-  Since we are using the Laplace mechanism with rounding, we need to find the probability of the noise being within $(-0.5, 0.5)$, which corresponds to rounding to the nearest integer. We can write this as:
+\begin{equation}
+  \int_{-0.5}^{0.5} f(x|0, b) dx \geq 0.9
+\end{equation}
 
-  \begin{equation}
-    \int_{-0.5}^{0.5} f(x|0, b) dx \geq 0.9
-  \end{equation}
+Since there are 3 candidates, we want the probability of getting the correct result for each candidate to be at least $\sqrt[3]{0.9}$,
+which
+is $\approx0.9659$.
 
-  Since the Laplace distribution is symmetric~\cite[294]{laplance} around the location parameter, we can write the integral as:
+\begin{equation}
+  \begin{split}
+    P(|\text{noise}| \leq 0.5) &= 0.9659 \\
+    1 - e^{-\frac{0.5}{b}} &= 0.48295 \\
+    e^{-\frac{0.5}{b}} &= 0.51705 \\
+    -\frac{0.5}{b} &= \ln(0.51705) \\
+    b &\approx 0.692
+  \end{split}
+\end{equation}
 
-  \begin{equation}
-    2 \int_0^{0.5} \frac{1}{2b} \exp\left(-\frac{x}{b}\right) dx \geq 0.9
-  \end{equation}
+Now, we can find $\varepsilon$ using the formula for the Laplace distribution's scale parameter:
 
-  Divide both sides by $2$:
-
-  \begin{equation}
-    \int_0^{0.5} \frac{1}{2b} \exp\left(-\frac{x}{b}\right) dx \geq 0.45
-  \end{equation}
-
-  Let $u = \frac{x}{b}$, then $x = bu$ and $dx = bdu$. The integral becomes:
-
-  \begin{equation}
-    \int_0^{\frac{1}{2b}} \exp(-u) bdu \geq 0.45
-  \end{equation}
-
-  The integral of $\exp(-u)$ is $- \exp(-u)$. So, we can write:
-
-  \begin{equation}
-    -\exp(-u) \Big|_0^{\frac{1}{2b}} \geq 0.45
-  \end{equation}
-
-  Substitute the limits:
-
-  \begin{equation}
-    -(\exp(-\frac{1}{2b}) - 1) \geq 0.45
-  \end{equation}
-
-  Solve for $b$:
-
-  \begin{equation}
-    \exp(-\frac{1}{2b}) - 1 \leq -0.45
-  \end{equation}
-
-  \begin{equation}
-    \exp(-\frac{1}{2b}) \leq 0.55
-  \end{equation}
-
-  Take the natural logarithm of both sides:
-
-  \begin{equation}
-    -\frac{1}{2b} \leq \ln(0.55)
-  \end{equation}
-
-  Multiply both sides by $-2$ and invert the inequality:
+\begin{equation}
+  \begin{split}
+    b &= \frac{\Delta f}{\varepsilon} \\
+    \varepsilon &= \frac{\Delta f}{b} \\
+    \varepsilon &\approx \frac{1}{0.692} \\
+    \varepsilon &\approx 1.445
+  \end{split}
+\end{equation}
 
 
-    \begin{equation}
-      \frac{1}{b} \geq -2\ln(0.55)
-    \end{equation}
+In this case, we should choose an $\varepsilon$ value of approximately 1.445 to ensure the probability of getting the correct result for
+all candidates is at least 0.9. If I choose a larger $\varepsilon$, the noise added to the vote counts will be smaller, which makes the
+results more accurate but may also compromise privacy.
 
-  Finally, find $b$:
 
-    \begin{equation}
-      b \leq \frac{1}{-2\ln(0.55)}
-    \end{equation}
 
-  To ensure the probability of getting the correct result is at least $0.9$, the noise scale parameter $b$ should be less than or equal to $\frac{1}{-2\ln(0.55)}$.
+\subsection{Dealing with negative counts}
+
+The post-processing theorem states that if a function is applied to the output of an $\varepsilon$-differentially private mechanism, the
+result is still $\varepsilon$-differentially private. ``The post-processing property means that it’s always safe to perform arbitrary
+computations on the output of a differentially private mechanism - there’s no danger of reversing the privacy protection the mechanism
+has provided``~\cite[]{properties}. Lets evaluate each modifcation option:
+
+1. Sampling only positive noise, i.e., from the interval $[0, \infty)$:
+This modifcation is not differentially private because it may make it easier to infer the original vote counts by observing the published results. For differential privacy, the noise should be sampled symmetrically around zero, so that it doesn't introduce bias in the results.
+
+2. If the true vote count of some candidate is some value $y$, sample the noise from the interval $[-y, \infty)$:
+This modifcation does not maintain $\varepsilon$-differential privacy because it's dependent on the true vote count, which introduces a potential privacy breach. The noise should be sampled independently of the true vote count to ensure that the privacy guarantee is preserved.
+
+3. If the noisy vote count of some candidate is negative, then re-sample the noise until the result becomes positive:
+This modifcation does not preserve $\varepsilon$-differential privacy either. Re-sampling the noise based on the output (noisy vote count) creates a potential for bias and compromises the privacy guarantee.
+
+4. If the noisy vote count of some candidate is negative, then round this negative count up to 0:
+This modifcation is consistent with the post-processing theorem and maintains $\varepsilon$-differential privacy. Clipping the negative vote count to zero does not depend on the true vote count and does not introduce any bias in the results. It's a form of post-processing that does not compromise the privacy guarantee.
+
+Therefore, option 4 is the only modifcation that keeps the system $\varepsilon$-differentially private with the same value of $\varepsilon$ due to the post-processing theorem.

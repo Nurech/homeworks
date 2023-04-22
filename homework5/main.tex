@@ -17,30 +17,18 @@
 \usepackage{enumerate}
 \usepackage{glossaries-extra}
 \usepackage{aguplus}
-\usepackage{cals}
-\usepackage{fmultico} % here to clear compiler errors
+\usepackage{cals} % here to clear compiler errors
 \addbibresource{ref.bib}
 \renewcommand*{\multicitedelim}{\addsemicolon\space} % use semicolon instead
 
 \begin{document}
 
   \input{title}
-
-
-  \newpage
-  \clearpage
-  \phantomsection
-  \printacronyms
-
-  \newpage
-  \tableofcontents
-
-
   \input{q1}
+  \input{q2}
+  \input{q3}
 
-  \newpage
   \newpage
   \printbibliography
-
 
 \end{document}

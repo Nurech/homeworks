@@ -1,5 +1,5 @@
 %! Author = partsjoo
-%! Date = 16.04.2023
+%! Date = 14.04.2023
 
 % Institute of Computer Science thesis template
 % authors: Sven Laur, Liina Kamm, Tõnu Tamme
@@ -18,7 +18,7 @@
 
 
 %%=== A4 page setup ===
-%\setlength{\paperwidth}{21.0cm} 
+%\setlength{\paperwidth}{21.0cm}
 %\setlength{\paperheight}{29.7cm}
 %\setlength{\textwidth}{16cm}
 %\setlength{\textheight}{25cm}
@@ -26,13 +26,13 @@
 
 % When you write in Estonian then you want to use text with right character set
 % By default LaTeX does not know what to do with õäöu letters. You have to specify
-% a correct input and font encoding. For that you have to Google the Web     
+% a correct input and font encoding. For that you have to Google the Web
 %
-% For TexShop under MacOS X. The right lines are 
+% For TexShop under MacOS X. The right lines are
 %\usepackage[applemac]{inputenc}
 %\usepackage[T1]{fontenc} %Absolutely critical for *hyphenation* of words with non-ASCII letters.
 %
-% For Windows and Linux the right magic lines are   
+% For Windows and Linux the right magic lines are
 % \usepackage[latin1]{inputenc}
 % \usepackage[latin5]{inputenc}
 %
@@ -40,15 +40,15 @@
 
 
 
-% Use package babel for English or Estonian 
-% If you use Estonian make sure that Estonian hyphenation is installed 
+% Use package babel for English or Estonian
+% If you use Estonian make sure that Estonian hyphenation is installed
 % - hypen-estonian or eehyp packages
 %
 %===Choose the main language in thesis
-\usepackage[estonian, english]{babel} %the thesis is in English 
+\usepackage[estonian, english]{babel} %the thesis is in English
 %\usepackage[english, estonian]{babel} %the thesis is in Estonian
 
-% Change Babel document elements 
+% Change Babel document elements
 \addto\captionsestonian{%
   \renewcommand{\refname}{Viidatud kirjandus}%
   \renewcommand{\appendixname}{Lisad}%
@@ -66,12 +66,12 @@
 %\addbibresource{unitartucs-thesis.bib}
 
 
-% General packages for math in general, theorems and symbols 
+% General packages for math in general, theorems and symbols
 % Read ftp://ftp.ams.org/ams/doc/amsmath/short-math-guide.pdf for further information
 \usepackage{amsthm}
 \usepackage{amssymb}
 
-% Optional calligraphic fonts    
+% Optional calligraphic fonts
 % \usepackage[mathscr]{eucal}
 
 
@@ -79,7 +79,7 @@
 
 % Standard package for drawing algorithms
 % Since the thesis in article format we must define \chapter for
-% the package algorithm2e (otherwise obscure errors occur) 
+% the package algorithm2e (otherwise obscure errors occur)
 %\let\chapter\section
 \usepackage[ruled, vlined, linesnumbered]{algorithm2e}
 
@@ -108,7 +108,7 @@
 %numbers=left,                   % where to put the line-numbers
 %numberstyle=\footnotesize,      % the size of the fonts that are used for the line-numbers
   numberstyle=\tiny\color{gray},
-  stepnumber=1,                    % the step between two line-numbers. If it's 1, each line 
+  stepnumber=1,                    % the step between two line-numbers. If it's 1, each line
 % will be numbered
   numbersep=5pt,                   % how far the line-numbers are from the code
   backgroundcolor=\color{white},   % choose the background color. You must add \usepackage{color}
@@ -124,7 +124,7 @@
   breaklines=true,                 % sets automatic line breaking
   breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
 %  title=\lstname,                  % show the filename of files included with \lstinputlisting;
-                                   % also try caption instead of title
+% also try caption instead of title
   keywordstyle=\color{blue},       % keywCurriculumord style
   commentstyle=\color{dkgreen},    % comment style
   stringstyle=\color{mauve},       % string literal style
@@ -143,10 +143,10 @@
 \def\predicatebegin #1\predicateend{$\Gamma \vdash #1$} % this must be def
 
 % If you really want to draw figures in LaTeX use packages tikz or pstricks
-% However, getting a corresponding illustrations is really painful  
+% However, getting a corresponding illustrations is really painful
 
 
-% Define your favorite macros that you use inside the thesis 
+% Define your favorite macros that you use inside the thesis
 % Name followed by non-removable space
 \newcommand{\proveit}{ProveIt\xspace}
 
@@ -254,6 +254,11 @@
 \newcommand{\sentencecase}[1]{\caselower[e]{#1}\capitalize{\thestring}}
 
 \usepackage{subcaption}
+\usepackage{multicol}
+\usepackage{amsmath,empheq}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}

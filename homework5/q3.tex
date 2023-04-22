@@ -1,0 +1,25 @@
+%! Author = partsjoo
+%! Date = 16.04.2023
+
+
+\newpage
+\section{Decision}
+\textbf{As an election organizer I would choose Q2 using the exponential mechanism.}
+The exponential mechanism is more siutable for finding the most popular candidate,
+which is the primary goal of the election organizer. For Q2, to achieve a
+probability of getting the correct result was for
+Wolf with $\epsilon \approx 4.605$ was $\approx 0.99997$ chance (very high probability).
+But then again I also guess that's not very secure from a privacy perspective. And our
+programmers attempt to add more privacy by changing query Q2 to $\epsilon \approx 0.4605$ might
+have been also a bit overreaction.
+
+\textbf{As a voter (interested in privacy) I would choose Q1 using rounding mechanism.}
+From a privacy perspective, Q1 using the Laplace mechanism with rounding could be a better choice.
+In this scenario, the global sensitivity of the query Q1 is 1, considering there are three candidates.
+To ensure the probability of getting the correct result at least 0.9 for each candidate we found that with
+$\varepsilon &\approx 1.445$ it was $\approx0.9659$ chance of selecting the right candidate.
+
+\textbf{To conclude}, it is essential to consider the trade-off between privacy and utility in both mechanisms.
+With Q2, there might be a higher chance of losing privacy.
+On the other hand, with Q1, there might be a higher chance of getting inaccurate results due to rounding.
+In either case, it's crucial to weigh the trade-offs between privacy and utility in both scenarios.
