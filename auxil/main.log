@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  22 APR 2023 10:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  22 APR 2023 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1605,7 +1605,7 @@ File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.st
 y
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-)) (config.tex) (acronyms.tex)
+)) (config.tex)
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.st
 y
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
@@ -2113,6 +2113,7 @@ or  <return>  to continue without it.
 
 \cals@tfoot@height=\dimen448
 \cals@current@cs=\box174
+) (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\fmultico.sty
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -2330,9 +2331,14 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
 7.
  (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
-) (q1.tex [1
+) [1
 
 {C:/Users/partsjoo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.toc)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [2] (q1.tex
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 13
 .
 
@@ -2345,13 +2351,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2] [3]) (q2.tex [4]
-<assets/fig1.png, id=87, 615.29875pt x 296.10625pt>
+ [3] [4]) (q2.tex [5]
+<assets/fig1.png, id=101, 615.29875pt x 296.10625pt>
 File: assets/fig1.png Graphic file (type png)
 <use assets/fig1.png>
 Package pdftex.def Info: assets/fig1.png  used on input line 31.
 (pdftex.def)             Requested size: 418.25368pt x 201.2818pt.
- [5 <./assets/fig1.png (PNG copy)>]
+ [6 <./assets/fig1.png (PNG copy)>]
 q2.tex:68: Undefined control sequence.
 <recently read> \apporx 
                         
@@ -2363,7 +2369,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[6]
+[7]
 Overfull \hbox (33.52797pt too wide) detected at line 110
 []
  []
@@ -2373,12 +2379,12 @@ Overfull \hbox (41.6113pt too wide) detected at line 118
 []
  []
 
-[7]
+[8]
 Overfull \hbox (46.27815pt too wide) detected at line 144
 []
  []
 
-) (q3.tex [8] [9]
+) (q3.tex [9] [10]
 q3.tex:20: Misplaced alignment tab character &.
 l.20 $\varepsilon &
                    \approx 1.445$ it was $\approx0.9659$ chance of selecting...
@@ -2389,24 +2395,27 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) [10]
+) [11]
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 32.
+(Font)              scaled to size 12.0pt on input line 36.
 
-Overfull \hbox (15.71013pt too wide) in paragraph at lines 33--33
+Overfull \hbox (15.71013pt too wide) in paragraph at lines 37--37
 []\T1/ptm/m/n/12 (-20) ^^P  The nor-mal-iza-tion con-stant $\OML/cmm/m/it/12 Z$
 \T1/ptm/m/n/12 (-20) .^^Q (), [On-line]. Avail-able: []$\T1/zi4/m/n/12 https : 
 / / www . wolframalpha .
  []
 
 
-Overfull \hbox (18.51569pt too wide) in paragraph at lines 33--33
+Overfull \hbox (18.51569pt too wide) in paragraph at lines 37--37
 []\T1/ptm/m/n/12 (-20) ^^P  The nor-mal-iza-tion con-stant $\OML/cmm/m/it/12 Z[
 ]$\T1/ptm/m/n/12 (-20) .^^Q (), [On-line]. Avail-able: []$\T1/zi4/m/n/12 https 
 : / / www . wolframalpha .
  []
 
-[11] (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.aux)
+[12] (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A02ABDADF652AEDFFE9AD95AEBA2938B;2170.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2414,13 +2423,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66393 strings out of 476334
- 1455778 string characters out of 5786555
- 2469278 words of memory out of 5000000
- 85572 multiletter control sequences out of 15000+600000
- 560799 words of font info for 190 fonts, out of 8000000 for 9000
+ 66416 strings out of 476334
+ 1456484 string characters out of 5786555
+ 2469301 words of memory out of 5000000
+ 85591 multiletter control sequences out of 15000+600000
+ 560801 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,17n,121p,2285b,1795s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,17n,121p,2285b,1899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 {C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
 -t1-0.enc}<C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/i
@@ -2439,10 +2448,10 @@ rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/partsjoo/AppData
 joo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pa
 rtsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users
 /partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\main.pdf (11 pag
-es, 240134 bytes).
+Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\main.pdf (12 pag
+es, 243550 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
  47706 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -113,7 +113,7 @@
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework5\papers" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.main">
+  <component name="RunManager" selected="Python.copy_out_file">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -196,13 +196,37 @@
       </texify-makeindex>
       <method v="2" />
     </configuration>
+    <configuration name="copy_out_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="homeworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework5/assets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework5/assets/copy_out_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="BibTeX.main bibliography" />
       <item itemvalue="LaTeX.main" />
       <item itemvalue="Makeindex.main makeglossarieslite" />
+      <item itemvalue="Python.copy_out_file" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.copy_out_file" />
         <item itemvalue="LaTeX.main" />
       </list>
     </recent_temporary>

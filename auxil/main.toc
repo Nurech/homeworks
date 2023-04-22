@@ -7,4 +7,5 @@
 \contentsline {subsection}{\numberline {1.2}Dealing with negative counts}{4}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Differential privacy of query Q2}{6}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Choosing the epsilon}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}The goodness of epsilon}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}The goodness of epsilon}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Decision}{11}{section.3}%

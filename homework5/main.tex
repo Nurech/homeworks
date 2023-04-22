@@ -5,7 +5,6 @@
 
 \input{settings}
 \input{config}
-\input{acronyms}
 
 \usepackage[backend=biber,
   bibstyle=ieee,
@@ -17,18 +16,24 @@
 \usepackage{enumerate}
 \usepackage{glossaries-extra}
 \usepackage{aguplus}
-\usepackage{cals} % here to clear compiler errors
+\usepackage{cals}
+\usepackage{fmultico} % here to clear compiler errors
 \addbibresource{ref.bib}
 \renewcommand*{\multicitedelim}{\addsemicolon\space} % use semicolon instead
 
 \begin{document}
 
   \input{title}
+
+  \newpage
+  \tableofcontents
+  \newpage
+
   \input{q1}
   \input{q2}
   \input{q3}
-
   \newpage
   \printbibliography
+
 
 \end{document}
