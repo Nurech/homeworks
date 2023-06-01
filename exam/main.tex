@@ -1,0 +1,35 @@
+%! Author = partsjoo
+%! Date = 16.04.2023
+
+\documentclass[12pt]{article} % here to clear compiler errors
+
+\input{settings}
+\input{config}
+
+\usepackage[backend=biber,
+  bibstyle=ieee,
+  citestyle=numeric-comp,
+%  citestyle=ieee,
+%  bibstyle=numeric,
+  urldate=iso,
+  seconds=true]{biblatex}
+\usepackage{enumerate}
+\usepackage{glossaries-extra}
+\usepackage{aguplus}
+\usepackage{cals}
+\usepackage{fmultico} % here to clear compiler errors
+\addbibresource{ref.bib}
+\renewcommand*{\multicitedelim}{\addsemicolon\space} % use semicolon instead
+
+\begin{document}
+
+  \input{title}
+
+  \newpage
+
+  \input{q1}
+  \newpage
+  \printbibliography
+
+
+\end{document}

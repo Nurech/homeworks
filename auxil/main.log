@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  22 APR 2023 10:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  31 MAY 2023 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2334,124 +2334,108 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
 ) [1
 
 {C:/Users/partsjoo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.toc)
-\tf@toc=\write6
-\openout6 = `main.toc'.
+(q1.tex
+<assets/img_3.png, id=48, 1072.005pt x 550.055pt>
+File: assets/img_3.png Graphic file (type png)
+<use assets/img_3.png>
+Package pdftex.def Info: assets/img_3.png  used on input line 33.
+(pdftex.def)             Requested size: 418.25368pt x 214.6045pt.
+ [2]
 
- [2] (q1.tex
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 13
+q1.tex:42: LaTeX Error: Unicode character ε (U+03B5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 (a typical value for ε
+                            , the privacy budget, could be 1.0, but this dep...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+<assets/img_2.png, id=63, 974.64125pt x 619.31375pt>
+File: assets/img_2.png Graphic file (type png)
+<use assets/img_2.png>
+Package pdftex.def Info: assets/img_2.png  used on input line 57.
+(pdftex.def)             Requested size: 418.25368pt x 265.77052pt.
+[3 <./assets/img_3.png>]
+<assets/img_4.png, id=71, 1029.8475pt x 495.8525pt>
+File: assets/img_4.png Graphic file (type png)
+<use assets/img_4.png>
+Package pdftex.def Info: assets/img_4.png  used on input line 77.
+(pdftex.def)             Requested size: 418.25368pt x 201.37904pt.
+ [4 <./assets/img_2.png>] [5 <./assets/img_4.png>]
+<assets/img_7.png, id=86, 992.70876pt x 826.08624pt>
+File: assets/img_7.png Graphic file (type png)
+<use assets/img_7.png>
+Package pdftex.def Info: assets/img_7.png  used on input line 135.
+(pdftex.def)             Requested size: 418.25368pt x 348.05049pt.
+
+[6] [7 <./assets/img_7.png>] [8] [9]
+<assets/img_9.png, id=117, 1282.7925pt x 747.79375pt>
+File: assets/img_9.png Graphic file (type png)
+<use assets/img_9.png>
+Package pdftex.def Info: assets/img_9.png  used on input line 186.
+(pdftex.def)             Requested size: 418.25368pt x 243.8174pt.
+ [10 <./assets/img_9.png>]
+<assets/img_10.png, id=125, 941.5175pt x 888.31876pt>
+File: assets/img_10.png Graphic file (type png)
+<use assets/img_10.png>
+Package pdftex.def Info: assets/img_10.png  used on input line 224.
+(pdftex.def)             Requested size: 418.25368pt x 394.61609pt.
+ [11] [12 <./assets/img_10.png>]) [13]
+Overfull \hbox (12.40201pt too wide) in paragraph at lines 33--33
+[]\T1/ptm/m/n/12 (-20) B. McMa-han, E. Moore, D. Ra-m-age, S. Hamp-son, and B. 
+A. y Ar-cas, ^^P  Communication-
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 32
 .
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 13.
+(Font)              scaled to size 12.0pt on input line 32.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [3] [4]) (q2.tex [5]
-<assets/fig1.png, id=101, 615.29875pt x 296.10625pt>
-File: assets/fig1.png Graphic file (type png)
-<use assets/fig1.png>
-Package pdftex.def Info: assets/fig1.png  used on input line 31.
-(pdftex.def)             Requested size: 418.25368pt x 201.2818pt.
- [6 <./assets/fig1.png (PNG copy)>]
-q2.tex:68: Undefined control sequence.
-<recently read> \apporx 
-                        
-l.68 The normalization constant $Z$ is $\apporx
-                                                1.00000000000000000000000114...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[7]
-Overfull \hbox (33.52797pt too wide) detected at line 110
-[]
- []
-
-
-Overfull \hbox (41.6113pt too wide) detected at line 118
-[]
- []
-
-[8]
-Overfull \hbox (46.27815pt too wide) detected at line 144
-[]
- []
-
-) (q3.tex [9] [10]
-q3.tex:20: Misplaced alignment tab character &.
-l.20 $\varepsilon &
-                   \approx 1.445$ it was $\approx0.9659$ chance of selecting...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-) [11]
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 36.
-
-Overfull \hbox (15.71013pt too wide) in paragraph at lines 37--37
-[]\T1/ptm/m/n/12 (-20) ^^P  The nor-mal-iza-tion con-stant $\OML/cmm/m/it/12 Z$
-\T1/ptm/m/n/12 (-20) .^^Q (), [On-line]. Avail-able: []$\T1/zi4/m/n/12 https : 
-/ / www . wolframalpha .
- []
-
-
-Overfull \hbox (18.51569pt too wide) in paragraph at lines 37--37
-[]\T1/ptm/m/n/12 (-20) ^^P  The nor-mal-iza-tion con-stant $\OML/cmm/m/it/12 Z[
-]$\T1/ptm/m/n/12 (-20) .^^Q (), [On-line]. Avail-able: []$\T1/zi4/m/n/12 https 
-: / / www . wolframalpha .
- []
-
-[12] (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+ [14] (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A02ABDADF652AEDFFE9AD95AEBA2938B;2170.
+(rerunfilecheck)             Checksum: 53E5A4FCBFAD6CD89B5C46FE25149CC7;2035.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66416 strings out of 476334
- 1456484 string characters out of 5786555
- 2469301 words of memory out of 5000000
- 85591 multiletter control sequences out of 15000+600000
- 560801 words of font info for 190 fonts, out of 8000000 for 9000
+ 65965 strings out of 476334
+ 1452648 string characters out of 5786555
+ 2460731 words of memory out of 5000000
+ 85147 multiletter control sequences out of 15000+600000
+ 554659 words of font info for 194 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,17n,121p,2285b,1899s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-{C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
--t1-0.enc}<C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/i
+ 122i,6n,121p,2285b,1795s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/
+i4-t1-0.enc}{C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ba
+se/8r.enc}<C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/i
 nconsolata/Inconsolata-zi4r.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/partsjoo/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/partsjoo/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/pa
-rtsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr6.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr8.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/partsjoo/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/partsjoo/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/parts
-joo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pa
-rtsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users
-/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\main.pdf (12 pag
-es, 243550 bytes).
+X/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/partsjoo/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/partsjoo/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/par
+tsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:
+/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1
+/urw/times/utmb8a.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/urw/times/utmr8a.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\main.pdf (14 pag
+es, 1039265 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 47706 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 210 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 39027 words of extra memory for PDF output out of 42996 (max. 10000000)
 
