@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="hw5">
-      <change afterPath="$PROJECT_DIR$/homework6/acronyms.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6/assets/code_sample1.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6/assets/code_sample2.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6/assets/copy_out_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6/assets/update_date_watermark.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6/config.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6/main.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6/q1.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6/ref.bib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6/settings.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6/title.tex" afterDir="false" />
+    <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="exam">
+      <change afterPath="$PROJECT_DIR$/auxil/misc/titlepage.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/chapters/chapters_main.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/main.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/abstract.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/acronyms.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/authordeclaration.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/license.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/misc_main.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/snippets.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/titlepage.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/settings.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/thesis.sty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework6/ref.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/main.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.bbl" afterDir="false" />
@@ -23,7 +25,74 @@
       <change beforePath="$PROJECT_DIR$/auxil/main.blg" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.blg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/acronyms.tex" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/references.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/code_sample1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/code_sample1.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/img_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/img_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/img_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/img_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/img_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/img_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/img_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/img_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/img_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/img_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/img_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/img_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/img_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/img_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/assets/img_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/assets/img_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/config.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/config.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/q1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/q1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/ref.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/settings.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/settings.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/title.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/title.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/16APR23_hw4_parts.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/16APR23_hw4_parts.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/acronyms.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/acronyms.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/16APR23_homework4_parts.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/16APR23_homework4_parts.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/age_dist.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/age_dist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/anon_level.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/anon_level.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/attribute_weights.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/attribute_weights.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/class_size_supressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/class_size_supressed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/class_size_unsupressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/class_size_unsupressed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/copy_out_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/copy_out_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/countries_dist.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/countries_dist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/covid_19.csv" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/covid_19.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/data_out.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/data_out.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/homework4.deid" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/homework4.deid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/model.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/quality_models.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/quality_models.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/risk_after.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/risk_after.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/risk_before.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/risk_before.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/risk_meter.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/risk_meter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/sample_data.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/sample_data.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/assets/update_date_watermark.py" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/assets/update_date_watermark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/config.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/config.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/ref.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/related_work.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/related_work.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/settings.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/settings.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/snippets.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/snippets.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4/title.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework4/title.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/acronyms.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/exam/acronyms.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/assets/22APR23_homework5_parts.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/assets/22APR23_homework5_parts.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/assets/copy_out_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/assets/copy_out_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/assets/fig1.png" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/assets/fig1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/assets/laplace.py" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/assets/laplace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/assets/update_date_watermark.py" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/assets/update_date_watermark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/config.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/config.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/q1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/q1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/q2.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/q2.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/q3.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/q3.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/ref.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/settings.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/settings.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/title.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/title.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework6/acronyms.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework5/acronyms.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework6/config.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework6/config.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework6/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework6/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework6/q1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework6/q1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework6/ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework6/acronyms.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework6/settings.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework6/settings.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework6/title.tex" beforeDir="false" afterPath="$PROJECT_DIR$/privacy_preserving_technologies/homework6/title.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +109,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2OQCCZcFAxCCF56D7FnS8MpOySf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,38 +122,42 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/partsjoo/IdeaProjects/homeworks/homework6/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/partsjoo/IdeaProjects/homeworks/homework1_cybersecurity_management_ciso_roadmap",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework6\assets" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework1_cybersecurity_management_ciso_roadmap" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework1_cybersecurity_management_ciso_roadmap\misc" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework6\assets" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework5" />
-      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework5\papers" />
-      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework5\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\privacy_preserving_technologies" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\Cyber Security Management (ITC8230)" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework1_cybersecurity_management_ciso_roadmap\chapters" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework1_cybersecurity_management_ciso_roadmap\misc" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework5\papers" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.main (1)">
+  <component name="RunManager" selected="LaTeX.main (3)">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -98,7 +175,7 @@
         <compiler-path />
         <compiler-arguments />
         <envs />
-        <main-file>$PROJECT_DIR$/homework6/main.tex</main-file>
+        <main-file>$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/main.tex</main-file>
         <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
       </texify-bibtex>
       <method v="2" />
@@ -133,7 +210,7 @@
         <viewer-command />
         <compiler-arguments />
         <envs />
-        <main-file>$PROJECT_DIR$/homework6/main.tex</main-file>
+        <main-file>$PROJECT_DIR$/privacy_preserving_technologies/homework6/main.tex</main-file>
         <output-path>$PROJECT_DIR$/out</output-path>
         <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
         <compile-twice>false</compile-twice>
@@ -145,7 +222,7 @@
       </texify>
       <method v="2" />
     </configuration>
-    <configuration name="main" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
+    <configuration name="main (2)" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
       <texify>
         <compiler>PDFLATEX</compiler>
         <compiler-path />
@@ -154,15 +231,36 @@
         <viewer-command />
         <compiler-arguments />
         <envs />
-        <main-file>$PROJECT_DIR$/homework5/main.tex</main-file>
+        <main-file>$PROJECT_DIR$/privacy_preserving_technologies/exam/main.tex</main-file>
         <output-path>$PROJECT_DIR$/out</output-path>
         <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
-        <compile-twice>true</compile-twice>
+        <compile-twice>false</compile-twice>
         <output-format>PDF</output-format>
         <latex-distribution>MIKTEX</latex-distribution>
         <has-been-run>true</has-been-run>
         <bib-run-config>[BibTeX.main bibliography]</bib-run-config>
-        <makeindex-run-config>[]</makeindex-run-config>
+        <makeindex-run-config>[Makeindex.main makeglossarieslite]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>NONE</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <main-file>$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/main.tex</main-file>
+        <output-path>$PROJECT_DIR$/out</output-path>
+        <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
+        <compile-twice>false</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>MIKTEX</latex-distribution>
+        <has-been-run>true</has-been-run>
+        <bib-run-config>[BibTeX.main bibliography]</bib-run-config>
+        <makeindex-run-config>[Makeindex.main makeglossarieslite]</makeindex-run-config>
       </texify>
       <method v="2" />
     </configuration>
@@ -178,7 +276,7 @@
     <configuration name="main makeglossarieslite" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-makeindex>
         <program>MAKEGLOSSARIESLITE</program>
-        <main-file>$PROJECT_DIR$/homework6/main.tex</main-file>
+        <main-file>$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/main.tex</main-file>
         <command-line-args />
         <work-dir>$PROJECT_DIR$/auxil</work-dir>
       </texify-makeindex>
@@ -230,18 +328,20 @@
     </configuration>
     <list>
       <item itemvalue="BibTeX.main bibliography" />
+      <item itemvalue="LaTeX.main (3)" />
+      <item itemvalue="LaTeX.main (2)" />
       <item itemvalue="LaTeX.main (1)" />
-      <item itemvalue="LaTeX.main" />
       <item itemvalue="Makeindex.main makeglossarieslite" />
       <item itemvalue="Python.update_date_watermark" />
       <item itemvalue="Python.copy_out_file" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="LaTeX.main (3)" />
+        <item itemvalue="LaTeX.main (2)" />
         <item itemvalue="LaTeX.main (1)" />
         <item itemvalue="Python.update_date_watermark" />
         <item itemvalue="Python.copy_out_file" />
-        <item itemvalue="LaTeX.main" />
       </list>
     </recent_temporary>
   </component>
@@ -262,6 +362,9 @@
       <workItem from="1682831474126" duration="5391000" />
       <workItem from="1683115730732" duration="3920000" />
       <workItem from="1683470457940" duration="3592000" />
+      <workItem from="1685526838343" duration="16677000" />
+      <workItem from="1686977613109" duration="2770000" />
+      <workItem from="1694245934310" duration="10631000" />
     </task>
     <task id="LOCAL−00001" summary="hw4">
       <created>1681523770099</created>
@@ -311,7 +414,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1682148554800</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="exam">
+      <created>1685601919990</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1685601919990</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,11 +430,12 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hw4" />
     <MESSAGE value="hw5" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
+    <MESSAGE value="exam" />
+    <option name="LAST_COMMIT_MESSAGE" value="exam" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/homeworks$copy_out_file.coverage" NAME="copy_out_file Coverage Results" MODIFIED="1682148543513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework5/assets" />
     <SUITE FILE_PATH="coverage/homeworks$update_date_watermark__1_.coverage" NAME="update_date_watermark (1) Coverage Results" MODIFIED="1681648843731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework5/assets" />
     <SUITE FILE_PATH="coverage/homeworks$update_date_watermark.coverage" NAME="update_date_watermark Coverage Results" MODIFIED="1683470631481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework6/assets" />
+    <SUITE FILE_PATH="coverage/homeworks$copy_out_file.coverage" NAME="copy_out_file Coverage Results" MODIFIED="1682148543513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework5/assets" />
   </component>
 </project>

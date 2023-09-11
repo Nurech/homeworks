@@ -1,15 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[120] biber-MSWIN64:340> INFO - === 
-[159] Biber.pm:419> INFO - Reading 'main.bcf'
-[272] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
-[286] Biber.pm:4419> INFO - Processing section 0
-[299] Biber.pm:4610> INFO - Looking for bibtex file 'ref.bib' for section 0
-[354] bibtex.pm:1713> INFO - LaTeX decoding ...
-[370] bibtex.pm:1519> INFO - Found BibTeX data source 'C:\Users\partsjoo\IdeaProjects\homeworks\exam\ref.bib'
-[452] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[452] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[452] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[452] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[461] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[466] bbl.pm:763> INFO - Output to main.bbl
+[117] biber-MSWIN64:340> INFO - === 
+[157] Biber.pm:419> INFO - Reading 'main.bcf'
+[266] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[280] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[280] bbl.pm:763> INFO - Output to main.bbl
+[281] Biber.pm:131> WARN - The file 'main.bcf' does not contain any citations!
+[281] Biber.pm:133> INFO - WARNINGS: 1

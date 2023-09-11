@@ -1,0 +1,261 @@
+% this stuff is not used, just place to paste things
+
+\begin{table}[h]
+  \centering
+  \caption{Selected sources in order of relevance}
+  \label{tab:sources}
+  \begin{tabularx}{\textwidth}{|c|c|c|c|Y|}
+    \hline \textbf{} & \textbf{Publisher} & \textbf{Metrics}    & \textbf{Topics} & \textbf{Year}                                                    \\
+    \hline 1         & SpringerLink       & 1,200 journals      & 1996            & Computer science, engineering, environment                       \\
+    \hline  1          & IEEExplore         & 5,360,654 articles  & 2000            & Computer science, electrical engineering and electronics         \\
+    \hline  1          & Scopus             & 34,346 journals     & 2004            & Life sciences, social sciences, physical sciences                \\
+    \hline  1          & ScienceDirect      & 15,000,000 articles & 1997            & Physical Sciences and Engineering, Life Sciences                 \\
+    \hline  1          & Web of Science     & 200 million records & 1998            & Physical Sciences, Technology, Life Sciences \& Biomedicine      \\
+    \hline  1          & LISTA              & 513 million records & 2005            & Automation, Classification, Electronic resources and ERM systems \\
+    \hline  1          & Google Scholar     & 389 million records & 2004            & Various topics                                                   \\
+  \end{tabularx}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \caption{Selected sources in order of relevance}
+  \begin{tabularx}{\textwidth}{ccccY}
+    \toprule
+    \textbf{} & \textbf{Publisher} & \textbf{Metrics}    & \textbf{Year} & \textbf{Topics}                                                  \\
+    \midrule
+    1         & SpringerLink       & 1,200 journals      & 1996          & Computer science, engineering, environment                       \\
+    1         & IEEExplore         & 5,360,654 articles  & 2000          & Computer science, electrical engineering and electronics         \\
+    1         & Scopus             & 34,346 journals     & 2004          & Life sciences, social sciences, physical sciences                \\
+    1         & ScienceDirect      & 15,000,000 articles & 1997          & Physical Sciences and Engineering, Life Sciences                 \\
+    1         & Web of Science     & 200 million records & 1998          & Physical Sciences, Technology, Life Sciences \& Biomedicine      \\
+    1         & LISTA              & 513 million records & 2005          & Automation, Classification, Electronic resources and ERM systems \\
+    1         & Google Scholar     & 389 million records & 2004          & Various topics                                                   \\
+    \bottomrule
+  \end{tabularx}
+  \label{tab2:}
+\end{table}
+
+
+\usepackage{xifthen}
+
+\newcommand{\tablestyle}[1]{
+  \if{\equal{#1}{box}}{
+    \newcommand{\styleBeginTabular}{\begin{tabularx}{\textwidth}{|c|c|c|c|Y|}}
+    \newcommand{\styleTopRule}{\hline}
+    \newcommand{\styleMidRule}{\hline}
+    \newcommand{\styleBottomRule}{\hline}
+    \newcommand{\styleRowEnd}{\\\hline}
+  }
+  \if{\equal{#1}{nobox}}{
+    \newcommand{\styleBeginTabular}{\begin{tabularx}{\textwidth}{ccccY}}
+    \newcommand{\styleTopRule}{\toprule}
+    \newcommand{\styleMidRule}{\midrule}
+    \newcommand{\styleBottomRule}{\bottomrule}
+    \newcommand{\styleRowEnd}{\\}
+  }
+}
+
+\tablestyle{box} % Use this line to switch to the boxed version
+%\tablestyle{nobox} % Use this line to switch to the unboxed version
+
+\begin{table}
+  \centering
+  \styleBeginTabular
+  \styleTopRule
+  \textbf{} & \textbf{Publisher} & \textbf{Metrics} & \textbf{Year} & \textbf{Topics} \\
+  \styleMidRule
+  1 & SpringerLink & 1,200 journals & 1996 & Computer science, engineering, environment \styleRowEnd
+  1 & IEEExplore & 5,360,654 articles & 2000 & Computer science, electrical engineering and electronics \styleRowEnd
+  1 & Scopus & 34,346 journals & 2004 & Life sciences, social sciences, physical sciences \styleRowEnd
+  1 & ScienceDirect & 15,000,000 articles & 1997 & Physical Sciences and Engineering, Life Sciences \styleRowEnd
+  1 & Web of Science & 200 million records & 1998 & Physical Sciences, Technology, Life Sciences \& Biomedicine \styleRowEnd
+  1 & LISTA & 513 million records & 2005 & Automation, Classification, Electronic resources and ERM systems \styleRowEnd
+  1 & Google Scholar & 389 million records & 2004 & Various topics \styleRowEnd
+  \styleBottomRule
+  \label{tab:table1}
+\end{tabularx}
+\caption{}
+\label{tab:}
+\end{table}
+
+
+\begin{table}[h!]
+\label{tab:filters}
+
+\centering
+\begin{talltblr}[
+caption = {Used search filters},
+label = {beta},
+note{*} = {In addition, also includes terms from primary studies},
+]{|l|c|c|c|c|}
+\toprule
+Primary studies & & \SetCell[c=2]{c} Secondary studies\rlap{\TblrNote{*}} & \\
+\midrule
+&  Coefficient & 95\% CI     &  Coefficient & 95\% CI \\
+\midrule
+0.190 & (0.113, 0.268) & 0.171 & (0.100, 0.241)\\
+0.117 &  (0.043, 0.191)  & 0.117 & (0.050, 0.183)\\
+0.210 &  (0.139, 0.281)  & 0.190 & (0.127, 0.253)\\
+0.204 & (0.135, 0.273)   & 0.111 & ( 0.049, 0.173)\\
+0.157 & (0.07,8 0.236) & 0.208 & (0.136, 0.280) \\
+0.115 & (0.041, 0.189) & 0.100 & (0.034, 0.166) \\
+\bottomrule
+\end{talltblr}
+\end{table}
+
+
+\begin{table}[h]
+\label{tab:filters1}
+\centering
+
+\caption{Used search filters}
+\begin{tabularx}{\textwidth}{|c|Y|Y|Y|c|}
+\hline
+\textbf{}          & \textbf{Date}     & \textbf{Type}                                 & \textbf{Discipline}           & \textbf{Langugage} \\\hline
+Primary studies    & $[2019\dots2023]$ & Reports, Journals, Experiments, Datasets      & Computer Science, Engineering     & English            \\\hline
+Secondary studies* & $[2014\dots2023]$ & Articles, Conference Proceedings, Whitepapers & Social Sciences, Psychology & Estonian \\\hline
+\end{tabularx}
+\end{table}
+
+
+
+\begin{table}[h!]
+\centering
+er
+\caption{Selected primary and secondary studies}
+\label{tab:studies}
+\begin{tabularx}{\columnwidth}{lcll}
+\toprule
+\textbf{Outcome measures}                                                                       & \textbf{Year} & \textbf{Study design} & \textbf{Evidence Level} \\
+\midrule
+Perceived usefulness of \ac{tpr}~\cite[]{acceptance-telepresence-robots-2022}                  & 2022          & Quasi-random          & 4-3                     \\
+Robotics cybersecurity and countermeasures~\cite[]{cyber_security_issues_in_robotics_2021}                                     & 2021          & Expert opinion        & 5                       \\
+Vulnerabilities and security solutions in robotics domain~\cite[]{robotics_cyber_security_2022}                                  & 2022& Expert opinion& 5                       \\
+Smart design engineering~\cite[]{smart_design_engineering_2020}                                 & 2020          & Expert opinion& 5                       \\
+Methodology to protect robots~\cite[]{robot_security_review_2022}                               & 2022          & Expert opinion& 5                       \\
+Perspectives of implementing \ac{tpr}~\cite[]{higher_edu_perception_on_tprs_2022}                                                         & 2022          & Quasi-random          & 4-3                     \\
+Methodology to perform security assessments in robotics~\cite[]{robot_security_framework_2018}                                         & 2018          & Expert opinion& 5                       \\
+Security measures in \ac{he}~\cite[]{role_of_cyber_security_in_higher_edu_2020}                 & 2020          & Expert opinion& 5                       \\
+Telepresence services in the \ac{hei}~\cite[]{telepresence_robots_in_classroom_2019}                                                           & 2019          & Expert opinion& 5                       \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+
+
+\begin{enumerate}
+\item SpringerLink -- \textit{"telepresence OR robots OR cybersecurity OR education OR risks"};
+\item IEEExplore -- \textit{"("All Metadata":telepresence) OR ("All Metadata":robots) OR ("All Metadata":cybersecurity) OR ("All Metadata"
+:education) OR ("All Metadata":risks)"};
+\item Scopus -- \textit{"TITLE-ABS-KEY ( telepresence OR robots OR cybersecurity OR education OR risks )  AND  ( LIMIT-TO ( PUBYEAR ,
+2023 )  OR LIMIT-TO ( PUBYEAR ,  2022 )  OR LIMIT-TO ( PUBYEAR ,  2021 )  OR LIMIT-TO ( PUBYEAR ,  2020 )  OR LIMIT-TO ( PUBYEAR
+,  2019 ) )  AND  ( LIMIT-TO ( DOCTYPE ,  "ar" ) )  AND  ( LIMIT-TO ( SUBJAREA ,  "COMP" ) )"}.
+\end{enumerate}
+
+
+\begin{table}[htb]
+\centering
+er
+\caption{Number of selected for review using primary search stategy}
+\label{tab:query-results}
+\begin{tabularx}{\textwidth}{|c|c|c|Y|Y|Y|Y|Y|}
+\hline
+\textbf{Year} & \textbf{Total} & \textbf{Range} & \textbf{Type} & \textbf{Discipline} & \textbf{Number of studies} \\\hline
+SpringerLink  & 03.2023        & 2019-2023      & Article       & Engineering         & 57349                      \\\hline
+IEEExplore    & 04.2023        & 2019-2023      & Journals      & Computer Science    & 61010                      \\\hline
+Scopus        & 04.2023        & 2019-2023      & Article       & Computer Science    & 101267                     \\\hline
+IEEExplore    & 04.2023        & 2019-2023      & All           & X                   & 221674                     \\\hline
+SpringerLink  & 03.2023        & 2019-2023      & All           & X                   & 1649397                    \\\hline
+Scopus        & 04.2023        & 2019-2023      & All           & X                   & 7865145                    \\\hline
+\end{tabularx}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+
+\caption{Selected sources}
+\label{table:selected_sources}
+\begin{tabularx}{\textwidth}{|l|X|l|l|l|l|l|l|l|l|l|}
+\hline
+\textbf{\#}  & \textbf{Year} & \textbf{References}                                              & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5}& \textbf{6}& \textbf{7}  \\\hline
+1 $^{\ast}$ 2022 & Lei et al.~\cite[]{acceptance_telepresence_robots_2022} & X &  &  & X &  &  &  \\\hline
+
+1            & 2021          & Lacava et al.~\cite[]{cyber_security_issues_in_robotics_2021}    & X          &            &            &            &            & X          &            \\\hline
+2            & 2022          & Yaacoub et al.~\cite[]{robotics_cyber_security_2022}             & X          & X          & X          &            & X          & X          & X          \\\hline
+3            & 2020          & Pessoa et al.~\cite[]{smart_design_engineering_2020}             &            &            &            &            & X          & X          &            \\\hline
+4            & 2021          & Zhu et al.~\cite[]{introduction_to_robot_system_security_2021}   & X          & X          &            &            & X          &           & X         \\\hline
+5 $^{\ast}$  & 2022 & Lei et al. ~\cite[]{acceptance_telepresence_robots_2022} & X &  &  & X &  &  &  \\\hline
+6 $^{\ast}$  & 2022          & Mayoral-Vilches~\cite[]{robot_security_review_2022}              &            &            & X          &            & X          &            &            \\\hline
+7 $^{\ast}$  & 2022          & Leoste et al.~\cite[]{higher_edu_perception_on_tprs_2022}        &            &            &            & X         &            &            &               \\\hline
+8 $^{\ast}$  & 2018          & Vilches et al.~\cite[]{robot_security_framework_2018}            & X          &            &            &            &            &            &            \\\hline
+9 $^{\ast}$  & 2020          & Singar et al.~\cite[]{role_of_cyber_security_in_higher_edu_2020} &           &            &            & X         &            &            & X         \\\hline
+10$^{\ast}$  & 2019          & Reis et al.~\cite[]{telepresence_robots_in_classroom_2019}       &            &            &            & X         &            &            &               \\\hline
+\end{tabularx}
+\begin{tabularx}{\textwidth}{@{}l}
+\footnotesize{$^{\ast}$ Secondary studies}\\
+\end{tabularx}
+\end{table}
+
+\begin{table}[htb]
+\centering
+
+\caption{Selected sources in order of relevance}
+\label{tab:sources}
+\begin{tabularx}{\textwidth}{|c|c|c|c|Y|}
+\hline \textbf{} & \textbf{Publisher} & \textbf{Metrics}      & \textbf{Year} & \textbf{Topics}                                                  \\\hline
+1                & SpringerLink       & 1,200 journals        & 1996          & Computer science, Engineering, Environment                       \\\hline
+2                & IEEExplore         & 5,360,654 articles    & 2000          & Computer science, Electrical Engineering and Electronics         \\\hline
+3                & Scopus             & 34,346 journals       & 2004          & Life sciences, Social Sciences, Physical Sciences                \\\hline
+4                & ScienceDirect      & 15,000,000 articles   & 1997          & Physical Sciences and Engineering, Life Sciences                 \\\hline
+5                & Web of Science     & 200 million records   & 1998          & Physical Sciences, Technology, Life Sciences \&Biomedicine       \\\hline
+6 $^{\ast}$      & LISTA              & 513 million records   & 2005          & Automation, Classification, Electronic resources and ERM systems \\\hline
+7 $^{\ast}$      & Frontiers          & 185 academic journals & 2007          & Education, Computer Science, Robotics and AI                     \\\hline
+8 $^{\ast}$      & Google Scholar     & 389 million records   & 2004          & Various topics                                                   \\\hline
+\end{tabularx}
+\begin{tabularx}{\textwidth}{@{}l}
+\footnotesize{$^{\ast}$ Secondary sources}\\
+\end{tabularx}
+\end{table}
+
+
+In that sense, cyber-physical threats could be interpreted as a combination of
+three different sub-categories of risks:
+
+\begin{enumerate}
+\item{Cyber-physical (P -- physical) threats are direct physical threats from the robot to the user.}
+\item{Cyber-physical (E -- environment) threats in which the robot can access the environment and manipulate it.}
+\item{Cyber-physical (C -- cyber) threats in which the robot capabilities are used to extend the known cyber attack surface.}
+\end{enumerate}
+
+In order to introduce new terminology, we will use the following notation to refer to the three sub-categories of cyber-physical threats
+: P -- physical, E -- environment, C -- cyber. To address these possible cyber-physical (PEC) risks within \ac{tpr}, we
+propose a systematic methodology to investigate the existence and importance of such risks. By conducting a case study, we will be able to
+verify the existence of such risks and interview experts to determine the importance of the risks and gain insight into the possible
+mitigation strategies. We argue that cyber-physical(PEC) risks in \ac{tpr} should be acknowledged as a significant concern in
+the field and raise awareness of such threats within the \ac{tpr} systems. By proposing new terminology with
+mitigation strategies and a systematic methodology to investigate the existence and importance of such risks, we hope to contribute to the
+field of \ac{tpr} security and privacy within the \ac{hei} and for organizations utilizing \ac{tpr} in general.
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[
+box/.style={rectangle, draw, text width=2.5cm, align=center},
+arrow/.style={->, thick, >=stealth},
+node distance=0.75cm and 1.5cm
+]
+
+\node[box] (box1) {1. Build theoretical framework.\\ Identify risk.};
+\node[box, right=of box1] (box2) {2. Validate risks using case studies.};
+\node[box, right=of box2] (box3) {3. Conduct interviews.\\ Experts confirm risks and provide mitigation strategies.};
+\node[box, right=of box3] (box4) {4. Risk analysis};
+
+\draw[arrow] (box1) -- (box2);
+\draw[arrow] (box2) -- (box3);
+\draw[arrow] (box3) -- (box4);
+\draw[arrow] (box4) -- ++ (0,-2.5) -| (box1.south) |- ([yshift=-0.3cm]box1.south) -- (box1);
+
+\end{tikzpicture}
+\caption{The initial plan for Master Project.}
+\label{fig:flowdiagram}
+\end{figure}

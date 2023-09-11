@@ -1,0 +1,31 @@
+\input{settings}
+\begin{document}
+
+% Pages like title, auhtor's declaration, etc.
+  \input{misc/misc_main}
+
+% Content chapters
+  \input{chapters/chapters_main}
+
+  \pagebreak
+  \phantomsection
+  \addcontentsline{toc}{chapter}{References}
+  \printbibliography[title=References]
+
+  \pagebreak
+%  \phantomsection
+%  \appendix
+% \addcontentsline{toc}{chapter}{Appendices}
+% \chapter*{Appendices}
+  \renewcommand{\thechapter}{\arabic{chapter}}
+
+%% License
+%  \newcommand{\licenseFootnote}{The non-exclusive licence is not valid during the validity of access restriction indicated in the student's application for restriction on access to the graduation thesis that has been signed by the school's dean, except in case of the university's right to reproduce the thesis for preservation purposes only. If a graduation thesis is based on the joint creative activity of two or more persons and the co-author(s) has/have not granted, by the set deadline, the student defending his/her graduation thesis consent to reproduce and publish the graduation thesis in compliance with clauses 1.1 and 1.2 of the non-exclusive licence, the non-exclusive license shall not be valid for the period.}
+%  \addcontentsline{toc}{chapter}{Appendix 1 -- Non-Exclusive License for Reproduction and Publication of a Graduation Thesis}\label{chapter:license}
+%  {\renewcommand\clearpage\relax\chapter*{Appendix 1 -- Non-Exclusive License for Reproduction and Publication of a Graduation Thesis\footnote{\licenseFootnote}}}
+%  \input{misc/license}
+%
+%% Other appendices
+%  \input{appendices/appendices_main}
+
+\end{document}
