@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  11 SEP 2023 06:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  13 SEP 2023 20:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2049,25 +2049,6 @@ Loading module `pdfsupport' ...
 Loading module `patch' ...
 Loading module `definitions' ...
 Loading module `upgrade' ...
-) (misc/acronyms.tex
-\c@g@acro@tpr@int=\count542
-\c@g@acro@ico@int=\count543
-\c@g@acro@ui@int=\count544
-\c@g@acro@et@int=\count545
-\c@g@acro@en@int=\count546
-\c@g@acro@crd@int=\count547
-\c@g@acro@hei@int=\count548
-\c@g@acro@he@int=\count549
-\c@g@acro@ict@int=\count550
-\c@g@acro@sen@int=\count551
-\c@g@acro@byod@int=\count552
-\c@g@acro@iot@int=\count553
-\c@g@acro@ros@int=\count554
-\c@g@acro@owasp@int=\count555
-\c@g@acro@ics@int=\count556
-\c@g@acro@cc@int=\count557
-\c@g@acro@cs@int=\count558
-\c@g@acro@cps@int=\count559
 )
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.st
 y
@@ -2083,8 +2064,8 @@ ore.code.tex
 \t@pgfplots@tokb=\toks58
 \t@pgfplots@tokc=\toks59
 \pgfplots@tmpa=\dimen303
-\c@pgfplots@coordindex=\count560
-\c@pgfplots@scanlineindex=\count561
+\c@pgfplots@coordindex=\count542
+\c@pgfplots@scanlineindex=\count543
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfpl
 otssysgeneric.code.tex))
@@ -2109,13 +2090,13 @@ ture\pgfplotsliststructure.code.tex)
 ture\pgfplotsliststructureext.code.tex)
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
 ture\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count562
+\c@pgfplotsarray@tmp=\count544
 )
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
 ture\pgfplotsmatrix.code.tex)
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\
 pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count563
+\c@pgfplotstable@counta=\count545
 \t@pgfplotstable@a=\toks63
 )
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
@@ -2128,7 +2109,7 @@ lotsbinary.data.code.tex))
 lotsutil.verb.code.tex)
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfl
 ibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count564
+\c@pgfplotslibrarysurf@no=\count546
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfli
 brarypgfplots.surfshading.pgfsys-pdftex.def)))
@@ -2165,7 +2146,7 @@ uledecorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen306
 \pgfdecoratedinputsegmentremainingdistance=\dimen307
 \pgf@decorate@distancetomove=\dimen308
-\pgf@decorate@repeatstate=\count565
+\pgf@decorate@repeatstate=\count547
 \pgfdecorationsegmentamplitude=\dimen309
 \pgfdecorationsegmentlength=\dimen310
 )
@@ -2181,7 +2162,7 @@ tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
 rations\pgflibrarydecorations.pathreplacing.code.tex))
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikz
 librarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count566
+\pgfplots@numplots=\count548
 \pgfplots@xmin@reg=\dimen311
 \pgfplots@xmax@reg=\dimen312
 \pgfplots@ymin@reg=\dimen313
@@ -2207,68 +2188,224 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \backup@length=\skip126
 \ar@cellbox=\box82
 ))
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/forest\forest.sty
+Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
+
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
+es\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
+es\pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
+es\pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
+es\pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
+es\pgflibraryshapes.callouts.code.tex))
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
+es\pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box83
+\pgfnodeparttwobox=\box84
+\pgfnodepartthreebox=\box85
+\pgfnodepartfourbox=\box86
+\pgfnodeparttwentybox=\box87
+\pgfnodepartnineteenbox=\box88
+\pgfnodeparteighteenbox=\box89
+\pgfnodepartseventeenbox=\box90
+\pgfnodepartsixteenbox=\box91
+\pgfnodepartfifteenbox=\box92
+\pgfnodepartfourteenbox=\box93
+\pgfnodepartthirteenbox=\box94
+\pgfnodeparttwelvebox=\box95
+\pgfnodepartelevenbox=\box96
+\pgfnodeparttenbox=\box97
+\pgfnodepartninebox=\box98
+\pgfnodeparteightbox=\box99
+\pgfnodepartsevenbox=\box100
+\pgfnodepartsixbox=\box101
+\pgfnodepartfivebox=\box102
+)))
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryintersections.code.tex
+\pgf@intersect@solutions=\count549
+)
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks65
+\pgfopts@list@add@b@toks=\toks66
+)
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/elocalloc\elocalloc.
+sty
+Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
+)
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspace
+s.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/inlinedef\inlinedef.
+sty
+Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
+\ID@toks=\toks67
+\ID@count=\count550
+)
+\ID@usercommands=\toks68
+\safeloop@depth=\count551
+\safeRKloop@depth=\count552
+\forest@temp@dimen=\dimen319
+\forest@temp@count=\count553
+\forest@n=\count554
+\forest@temp@global@count=\count555
+\forest@temp@toks=\toks69
+\forest@temparray@M=\count556
+\forest@temparray@N=\count557
+\forest@global@temparray@M=\count558
+\forest@global@temparray@N=\count559
+\forest@isnum@count=\count560
+\forest@isdim@nonintpart=\count561
+\forest@isdim@dimen=\dimen320
+\forest@sort@m=\count562
+\forest@sort@k=\count563
+\forest@sort@p=\count564
+\bracket@content=\toks70
+\bracket@afterthought=\toks71
+\forest@node@maxid=\count565
+\forest@process@left@M=\count566
+\forest@process@left@N=\count567
+\forest@process@right@M=\count568
+\forest@process@right@N=\count569
+\forest@process@saved@M=\count570
+\forest@process@saved@N=\count571
+\forest@process@result@M=\count572
+\forest@process@result@N=\count573
+\forest@process@n=\count574
+\forest@nodewalk@branch@toks=\toks72
+\forest@nodewalk@shortsteps@resolution=\toks73
+\forest@do@dynamics=\toks74
+\forest@box=\box103
+\forest@xg=\dimen321
+\forest@yg=\dimen322
+\forest@xs=\dimen323
+\forest@ys=\dimen324
+\forest@pi@toks=\toks75
+\forest@segment@toks=\toks76
+\forest@PIi@toks=\toks77
+\forest@PIii@toks=\toks78
+\forest@copy@in=\read7
+\forest@copy@out=\write5
+\forest@externalize@max@outer@n=\count575
+\forest@externalize@inner@n=\count576
+)
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/forest\forest-lib-ed
+ges.sty
+Package: forest-lib-edges 2016/12/05 v0.1.1
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 2.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 9.
 
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.aux
-(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\misc/titlepage.aux))
+(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\titlepage.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 2.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 9.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 9
 .
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 2.
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 9.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 9
 .
  (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    ... okay on input line 9.
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count567
-\scratchdimen=\dimen319
-\scratchbox=\box83
-\nofMPsegments=\count568
-\nofMParguments=\count569
-\everyMPshowfont=\toks65
-\MPscratchCnt=\count570
-\MPscratchDim=\dimen320
-\MPnumerator=\count571
-\makeMPintoPDFobject=\count572
-\everyMPtoPDFconversion=\toks66
+\scratchcounter=\count577
+\scratchdimen=\dimen325
+\scratchbox=\box104
+\nofMPsegments=\count578
+\nofMParguments=\count579
+\everyMPshowfont=\toks79
+\MPscratchCnt=\count580
+\MPscratchDim=\dimen326
+\MPnumerator=\count581
+\makeMPintoPDFobject=\count582
+\everyMPtoPDFconversion=\toks80
 )
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
 f-base.sty
@@ -2323,11 +2460,11 @@ File: puenc-greek.def 2023-08-15 2.4 Greek LICRs for PDF strings
 fontenc.def
 File: greek-fontenc.def 2023-08-15 2.4 Common Greek font encoding definitions
 ))
-Package hyperref Info: Link coloring OFF on input line 2.
+Package hyperref Info: Link coloring OFF on input line 9.
  (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.out)
 (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.out)
-\@outlinefile=\write5
-\openout5 = `main.out'.
+\@outlinefile=\write6
+\openout6 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
@@ -2361,24 +2498,24 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.bbl)
-Package biblatex Info: Reference section=0 on input line 2.
-Package biblatex Info: Reference segment=0 on input line 2.
-LaTeX Info: Redefining \microtypecontext on input line 2.
-Package microtype Info: Applying patch `item' on input line 2.
-Package microtype Info: Applying patch `toc' on input line 2.
-Package microtype Info: Applying patch `eqnum' on input line 2.
+Package biblatex Info: Reference section=0 on input line 9.
+Package biblatex Info: Reference segment=0 on input line 9.
+LaTeX Info: Redefining \microtypecontext on input line 9.
+Package microtype Info: Applying patch `item' on input line 9.
+Package microtype Info: Applying patch `toc' on input line 9.
+Package microtype Info: Applying patch `eqnum' on input line 9.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 2.
+Package microtype Warning: Unable to apply patch `footnote' on input line 9.
 
-Package microtype Info: Applying patch `verbatim' on input line 2.
+Package microtype Info: Applying patch `verbatim' on input line 9.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 2.
+LaTeX Info: Redefining \showhyphens on input line 9.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -2386,7 +2523,7 @@ Package microtype Info: No adjustment of character kerning.
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-\c@lstlisting=\count573
+\c@lstlisting=\count583
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\t
 ranslations-basic-dictionary-english.trsl
@@ -2394,65 +2531,61 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 2.
+or `english'. on input line 9.
 Package translations Info: no dictionary file `translations-basic-dictionary-gr
-eek.trsl' found. on input line 2.
+eek.trsl' found. on input line 9.
 Package translations Info: no dictionary file `translations-basic-dictionary-es
-tonian.trsl' found. on input line 2.
+tonian.trsl' found. on input line 9.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 2.
+ on input line 9.
 
-(misc/misc_main.tex
-\openout2 = `misc/titlepage.aux'.
+\openout2 = `titlepage.aux'.
 
- (misc/titlepage.tex [1
+(titlepage.tex [1
 
 
-{C:/Users/partsjoo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])) (chapte
-rs/chapters_main.tex
-Chapter 1.
-)
+{C:/Users/partsjoo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (chapter
+s.tex (tree.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11   \phantomsection
-                       [1
+l.20 
+      [1
 
 
+])
 
-]
+LaTeX Warning: Empty bibliography on input line 22.
 
-LaTeX Warning: Empty bibliography on input line 13.
-
-(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.aux
-(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\misc/titlepage.aux))
+[2] (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.aux
+(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\titlepage.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FF42A1AF1ADCB949E057ADBFA408FF49;245.
+(rerunfilecheck)             Checksum: B684F03EB09E598E284307D550B31E07;94.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56450 strings out of 476334
- 1283213 string characters out of 5786555
- 2154432 words of memory out of 5000000
- 76000 multiletter control sequences out of 15000+600000
- 541656 words of font info for 86 fonts, out of 8000000 for 9000
+ 69624 strings out of 476334
+ 1593075 string characters out of 5786555
+ 2461026 words of memory out of 5000000
+ 89084 multiletter control sequences out of 15000+600000
+ 534007 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,5n,134p,1037b,1787s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 147i,10n,143p,1592b,4415s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 <C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.p
 fb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8
 a.pfb>
-Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\main.pdf (2 page
-s, 31702 bytes).
+Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\main.pdf (3 page
+s, 44619 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)
- 22557 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 18453 words of extra memory for PDF output out of 20736 (max. 10000000)
 

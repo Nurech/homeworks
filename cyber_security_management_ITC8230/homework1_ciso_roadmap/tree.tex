@@ -1,0 +1,69 @@
+\begin{center}
+  \resizebox{\textwidth}{!}{%
+    \begin{forest}
+      for tree={
+        draw,
+        rounded corners,
+        node options={align=center,},
+        text width=3cm,
+      },
+      where level=0{%
+        }{%
+        folder,
+        grow'=1,
+        if level=1{%
+          before typesetting nodes={child anchor=north},
+          edge path'={(!u.parent anchor) -- ++(0,-15pt) -| (.child anchor)}, % increased from -5pt to -15pt
+        }{},
+      }
+      [\bfseries{CISO}, fill=gray!25, parent
+      [\bfseries{Foundations}, for tree={fill=brown!25, child}
+      [Education
+      [Undergraduate\\(Computer Science; Info Sys BA)]
+      [Postgraduate\\(Cybersecurity MSc)]
+      [Certifications\\(CISSP; CISM; CISA)]
+      ]
+      [Skills
+      [Technical\\(Network Security; Cloud)]
+      [Management\\(Risk Assessment; Policy)]
+      [Soft Skills\\(Communication; Leadership)]
+      ]
+      ]
+      [\bfseries{Governance}, for tree={fill=red!25,child}
+      [Regulatory
+      [Compliance\\(GDPR; HIPAA)]
+      [Standards\\(ISO 27001; NIST)]
+      ]
+      [Reporting
+      [KPIs\\(Incident Metrics)]
+      [Stakeholders\\(Executives; Board)]
+      ]
+      ]
+      [\bfseries{Operations}, for tree={fill=blue!25, child}
+      [Infrastructure
+      [Network Security\\(Firewalls; IDS/IPS)]
+      [Endpoint Security\\(Antivirus; EDR)]
+      ]
+      [Tools \& Platforms
+      [SIEM\\(Splunk; ELK Stack)]
+      [Vulnerability Scans\\(Nessus; Qualys)]
+      ]
+      [Incident Response
+      [Plan\\(Development; Testing)]
+      [Recovery\\(Business Continuity; DRP)]
+      ]
+      ]
+      [\bfseries{Strategy \& Finance}, for tree={fill=green!25, child}
+      [Team Building
+      [Internal\\(SOC analysts;Network Eng)]
+      [External\\(MSSPs; Consultants)]
+      ]
+      [Budget \& Finance
+      [CapEx\\(Hardware; Licenses)]
+      [OpEx\\(Maintenance; Training)]
+      ]
+      ]
+      ]
+    \end{forest}
+  }
+\end{center}
