@@ -1,9 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[516] biber-MSWIN64:340> INFO - === 
-[628] Biber.pm:419> INFO - Reading 'main.bcf'
-[955] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[1012] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1012] bbl.pm:763> INFO - Output to main.bbl
-[1013] Biber.pm:131> WARN - The file 'main.bcf' does not contain any citations!
-[1013] Biber.pm:133> INFO - WARNINGS: 1
+[119] biber-MSWIN64:340> INFO - === 
+[159] Biber.pm:419> INFO - Reading 'main.bcf'
+[273] Biber.pm:979> INFO - Found 8 citekeys in bib section 0
+[286] Biber.pm:4419> INFO - Processing section 0
+[299] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[402] bibtex.pm:1713> INFO - LaTeX decoding ...
+[455] bibtex.pm:1519> INFO - Found BibTeX data source 'C:\Users\partsjoo\IdeaProjects\homeworks\cyber_security_management_ITC8230\homework1_ciso_roadmap\references.bib'
+[605] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[605] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[605] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[605] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[623] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[628] bbl.pm:763> INFO - Output to main.bbl
+[629] Biber.pm:131> WARN - legacy month field 'Jan' in entry 'Karanja2017' is not an integer - this will probably not sort properly.
+[629] Biber.pm:131> WARN - ISBN '9798351430911' in entry 'cotton' is invalid - run biber with '--validate_datamodel' for details.
+[629] Biber.pm:133> INFO - WARNINGS: 2

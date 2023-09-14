@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="ciso roadmap">
-      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/tree.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.bbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.bcf" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.bcf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/main.blg" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.blg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/chapters/chapters_main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/chapters.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/abstract.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/acronyms.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/authordeclaration.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/license.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/misc_main.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/snippets.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/misc/titlepage.tex" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/titlepage.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/chapters.tex" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/chapters.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/references.bib" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/references.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/settings.tex" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/settings.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/tree.tex" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/tree.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,6 +288,7 @@
       <workItem from="1686977613109" duration="2770000" />
       <workItem from="1694245934310" duration="10707000" />
       <workItem from="1694616625109" duration="6568000" />
+      <workItem from="1694657231183" duration="6924000" />
     </task>
     <task id="LOCAL−00001" summary="hw4">
       <created>1681523770099</created>

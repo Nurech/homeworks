@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  13 SEP 2023 20:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  14 SEP 2023 07:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2537,11 +2537,8 @@ eek.trsl' found. on input line 9.
 Package translations Info: no dictionary file `translations-basic-dictionary-es
 tonian.trsl' found. on input line 9.
 
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
-ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
-your preamble.
- on input line 9.
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \openout2 = `titlepage.aux'.
 
@@ -2554,15 +2551,44 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 
+l.18 
       [1
 
 
-])
+]) [2]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 22
+.
 
-LaTeX Warning: Empty bibliography on input line 22.
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-[2] (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.aux
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+
+ (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+
+ (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [3
+
+] (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.aux
 (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\titlepage.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B684F03EB09E598E284307D550B31E07;94.
@@ -2571,21 +2597,23 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 69624 strings out of 476334
- 1593075 string characters out of 5786555
- 2461026 words of memory out of 5000000
- 89084 multiletter control sequences out of 15000+600000
- 534007 words of font info for 83 fonts, out of 8000000 for 9000
+ 70229 strings out of 476334
+ 1604784 string characters out of 5786555
+ 2467816 words of memory out of 5000000
+ 89579 multiletter control sequences out of 15000+600000
+ 551747 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 147i,10n,143p,1592b,4415s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 147i,10n,143p,2183b,4454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-<C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.p
-fb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8
-a.pfb>
-Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\main.pdf (3 page
-s, 44619 bytes).
+<C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a
+.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utm
+b8a.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
+utmr8a.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\main.pdf (4 page
+s, 95261 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 18453 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 30741 words of extra memory for PDF output out of 35830 (max. 10000000)
 

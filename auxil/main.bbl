@@ -16,5 +16,305 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{HOOPER2016585}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9d969ae88f7492b85daa2daa9a11cec9}{%
+           family={Hooper},
+           familyi={H\bibinitperiod},
+           given={Val},
+           giveni={V\bibinitperiod}}}%
+        {{hash=717c077a98b5a9448e5ef1cea384e675}{%
+           family={McKissack},
+           familyi={M\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{69a8d531f13faffe2a17e76ed8f36d78}
+      \strng{fullhash}{69a8d531f13faffe2a17e76ed8f36d78}
+      \strng{bibnamehash}{69a8d531f13faffe2a17e76ed8f36d78}
+      \strng{authorbibnamehash}{69a8d531f13faffe2a17e76ed8f36d78}
+      \strng{authornamehash}{69a8d531f13faffe2a17e76ed8f36d78}
+      \strng{authorfullhash}{69a8d531f13faffe2a17e76ed8f36d78}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Against a background of board-level concern for cybersecurity, organizations are seeking to ensure the protection of their information assets and minimize the risk of a cybersecurity attack. These objectives place two particular demands on organizations: to appoint a suitable official to head up their information security operations, a CISO; and to ensure that the executive and board are appropriately informed of the organization's security status. In exploring the challenges that confront organizations in selecting a CISO, we drew on data from the U.S., Canada, and New Zealand. Two main issues were addressed. First, the organization has to be very clear on what it wants in terms of the job the CISO is expected to perform and the corresponding attributes that such an incumbent would need to possess. The CISO is a senior-level executive and rather than being a specialized technical expert, the CISO should be an excellent communicator. This will help address the second issue, which is how effectively the CISO can communicate with the board. Some suggestions are provided that serve to aid both effectiveness and efficiency. However, organizations need to embrace their concern about cybersecurity and build it into their selection criteria for board members.}
+      \field{issn}{0007-6813}
+      \field{journaltitle}{Business Horizons}
+      \field{note}{CYBERSECURITY IN 2016: PEOPLE, TECHNOLOGY, AND PROCESSES}
+      \field{number}{6}
+      \field{title}{The emerging role of the CISO}
+      \field{volume}{59}
+      \field{year}{2016}
+      \field{pages}{585\bibrangedash 591}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.bushor.2016.07.004
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0007681316300635
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0007681316300635
+      \endverb
+      \keyw{CISO,Cybersecurity,CISO job/role,CISO attributes,Organization concerns}
+    \endentry
+    \entry{Karanja2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=49550eac627a5105ed51acb1e17918ca}{%
+           family={Karanja},
+           familyi={K\bibinitperiod},
+           given={Erastus},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Publishing Limited}%
+      }
+      \strng{namehash}{49550eac627a5105ed51acb1e17918ca}
+      \strng{fullhash}{49550eac627a5105ed51acb1e17918ca}
+      \strng{bibnamehash}{49550eac627a5105ed51acb1e17918ca}
+      \strng{authorbibnamehash}{49550eac627a5105ed51acb1e17918ca}
+      \strng{authornamehash}{49550eac627a5105ed51acb1e17918ca}
+      \strng{authorfullhash}{49550eac627a5105ed51acb1e17918ca}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Purpose The aim of this study is to advance research on the position of the CISO by investigating the role that CISOs play before and after an IT security breach. There is a dearth of academic research literature on the role of a chief information security officer (CISO) in the management of Information Technology (IT) security. The limited research literature exists despite the increasing number and complexity of IT security breaches that lead to significant erosions in business value. Design/methodology/approach The study makes use of content analysis and agency theory to explore a sample of US firms that experienced IT security breaches between 2009 and 2015 and how these firms reacted to the IT security breaches. Findings The results indicate that following the IT security breaches, a number of the impacted firms adopted a reactive plan that entailed a re-organization of the existing IT security strategy and the hiring of a CISO. Also, there is no consensus on the CISO reporting structure since most of the firms that hired a CISO for the first time had the CISO report either to the Chief Executive Officer or Chief Information Officer. Research limitations/implications The findings will inform researchers, IT educators and industry practitioners on the roles of CISOs as well as advance research on how to mitigate IT security vulnerabilities. Originality/value The need for research that advances an understanding of how to effectively manage the security of IT resources is timely and is driven by the growing frequency and sophistication of the IT security breaches as well as the significant direct and indirect costs incurred by both the affected firms and their stakeholders.}
+      \field{issn}{2056-4961}
+      \field{journaltitle}{Information {\&} Computer Security}
+      \field{month}{1}
+      \field{number}{3}
+      \field{title}{The role of the chief information security officer in the management of IT security}
+      \field{volume}{25}
+      \field{year}{2017}
+      \field{pages}{300\bibrangedash 329}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1108/ICS-02-2016-0013
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1108/ICS-02-2016-0013
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1108/ICS-02-2016-0013
+      \endverb
+    \endentry
+    \entry{11646017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b8c99a0ef939ba3b10b8afc4029059ed}{%
+           family={Whitten},
+           familyi={W\bibinitperiod},
+           given={Dwayne},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor & Francis}%
+      }
+      \strng{namehash}{b8c99a0ef939ba3b10b8afc4029059ed}
+      \strng{fullhash}{b8c99a0ef939ba3b10b8afc4029059ed}
+      \strng{bibnamehash}{b8c99a0ef939ba3b10b8afc4029059ed}
+      \strng{authorbibnamehash}{b8c99a0ef939ba3b10b8afc4029059ed}
+      \strng{authornamehash}{b8c99a0ef939ba3b10b8afc4029059ed}
+      \strng{authorfullhash}{b8c99a0ef939ba3b10b8afc4029059ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computer Information Systems}
+      \field{number}{3}
+      \field{title}{The Chief Information Security Officer: An Analysis of the Skills Required for Success}
+      \field{volume}{48}
+      \field{year}{2008}
+      \field{pages}{15\bibrangedash 19}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1080/08874417.2008.11646017
+      \endverb
+      \verb{eprint}
+      \verb https://www.tandfonline.com/doi/pdf/10.1080/08874417.2008.11646017
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/abs/10.1080/08874417.2008.11646017
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/abs/10.1080/08874417.2008.11646017
+      \endverb
+    \endentry
+    \entry{10658980701746577}{article}{}
+      \name{author}{3}{}{%
+        {{hash=942dc1e2dd2ad4c8b6ff9e19c2d6e5db}{%
+           family={CISSP},
+           familyi={C\bibinitperiod},
+           given={Todd\bibnamedelima Fitzgerald},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=c4cf1337de12d64001452cba233ff8bd}{%
+           family={CISA},
+           familyi={C\bibinitperiod}}}%
+        {{hash=f8e79d5cf5f95014e5b159fdd7868de6}{%
+           family={CISM},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor & Francis}%
+      }
+      \strng{namehash}{b6575594a1acc586d58be0976a93b583}
+      \strng{fullhash}{b6575594a1acc586d58be0976a93b583}
+      \strng{bibnamehash}{b6575594a1acc586d58be0976a93b583}
+      \strng{authorbibnamehash}{b6575594a1acc586d58be0976a93b583}
+      \strng{authornamehash}{b6575594a1acc586d58be0976a93b583}
+      \strng{authorfullhash}{b6575594a1acc586d58be0976a93b583}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information Systems Security}
+      \field{number}{5}
+      \field{title}{Clarifying the Roles of Information Security: 13 Questions the CEO, CIO, and CISO Must Ask Each Other}
+      \field{volume}{16}
+      \field{year}{2007}
+      \field{pages}{257\bibrangedash 263}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1080/10658980701746577
+      \endverb
+    \endentry
+    \entry{cotton}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=398bd27f62d4e89c6c0a262f9a31a4fc}{%
+           family={Cotton},
+           familyi={C\bibinitperiod},
+           given={Sylvester},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{398bd27f62d4e89c6c0a262f9a31a4fc}
+      \strng{fullhash}{398bd27f62d4e89c6c0a262f9a31a4fc}
+      \strng{bibnamehash}{398bd27f62d4e89c6c0a262f9a31a4fc}
+      \strng{authorbibnamehash}{398bd27f62d4e89c6c0a262f9a31a4fc}
+      \strng{authornamehash}{398bd27f62d4e89c6c0a262f9a31a4fc}
+      \strng{authorfullhash}{398bd27f62d4e89c6c0a262f9a31a4fc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{No consensus exists about the level of experience and qualifications required for a chief information security officer (CISO) needed for a medium to large business (over 3,000 employees), resulting in hiring chief information officers (CIOs) struggling to find, hire, and retain qualified professionals. The purpose of the qualitative e-Delphi research study was to provide a list of competencies to businesses with vacant CISO positions to help leadership hire qualified candidates. The study used two research questions centered on CIOs' best practices in the information technology (IT) industry regarding CISOs’ hard and soft skills, years of experience, education, and certifications. The first research question was, what are the IT industry CIOs’ best practices about the level of experience and qualifications required for a CISO position for a medium to large business? The second was the level of consensus between the IT industry's top CIO's best practices to rank hard and soft IT skills to evaluate the education, certifications, and other credentials for a CISO position. The qualitative study used the e-Delphi design with open-ended questions to collect data from a sample of 10 CIOs who have hired or supported hiring a CISO. Each expert panel member received three rounds of open-ended survey questions. The findings revealed specific hard and soft skills, years of experience, and certifications were essential to serving as a CISO. Leaders and practitioners may apply the findings to mitigate the current problem. Future research should examine whether the international community requires different competencies.}
+      \field{isbn}{9798351430911}
+      \field{journaltitle}{ProQuest Dissertations and Theses}
+      \field{note}{Copyright - Database copyright ProQuest LLC; ProQuest does not claim copyright in the individual underlying works; Last updated - 2023-03-08}
+      \field{title}{Experience and Qualifications Required for a Chief Information Security Officer: An e-Delphi Study}
+      \field{type}{phdthesis}
+      \field{year}{2022}
+      \field{pages}{142}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.proquest.com/dissertations-theses/experience-qualifications-required-chief/docview/2725631467/se-2
+      \endverb
+      \verb{url}
+      \verb https://www.proquest.com/dissertations-theses/experience-qualifications-required-chief/docview/2725631467/se-2
+      \endverb
+      \keyw{CISO; Cybersecurity; Security; Information science; 0723:Information science}
+    \endentry
+    \entry{2023dasilvajphd}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=0b157b93788c15f6ed990f539db619a5}{%
+           family={{Da Silva}},
+           familyi={D\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Royal Holloway, University of London}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{0b157b93788c15f6ed990f539db619a5}
+      \strng{fullhash}{0b157b93788c15f6ed990f539db619a5}
+      \strng{bibnamehash}{0b157b93788c15f6ed990f539db619a5}
+      \strng{authorbibnamehash}{0b157b93788c15f6ed990f539db619a5}
+      \strng{authornamehash}{0b157b93788c15f6ed990f539db619a5}
+      \strng{authorfullhash}{0b157b93788c15f6ed990f539db619a5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The employment of a Chief Information Security Officer (CISO) is common in commercial businesses. However, the purpose of the CISO role is not well understood. This thesis provides in-depth perspectives on the CISO role, and, in so doing, brings to the fore a nuanced understanding of its purpose and surfaces the experiences of those performing it.The thesis is grounded in an in-depth study of 18 UK-based but predominantly multinational organisations. It utilises semi-structured interviews with 15 CISOs and six senior organisational leaders, as well as an analysis of each organisation{’}s annual report.Through the application of empirically-grounded sociological theories to an interpretation of the findings, the thesis makes theoretical, practical, methodological, and empirical contributions. These include employing broader security scholarship related to ontological security and sociological notions of identity work to determine that cyber security plays an important role in business identity, being both threat to, and constituent of, that identity. It shows that the CISO{’}s own identity is conflicted and contradictory and proposes a metaphor of soothsaying that provides further insight. By applying analytical lenses of risk management and governance, it shows that the CISO represents an attempt to control cyber-security uncertainty, and highlights paradoxes relating to the role that the CISO plays in risk management. Further, it introduces the concept of recreancy to cyber-security practice.Cyber security is also explored in wider societal contexts, with the work of Thomas Hobbes used as an analytical lens. This indicates that cyber-security practices within businesses are beneficial to the state and shows that cyber-security threats are survival-level concerns feared by both states and businesses. Reflexivity in relation to the complex and enmeshed nature of cyber-security practice within broader society is also motivated by the thesis.The thesis concludes with considerations for future work that have been provoked by this research.}
+      \field{title}{Teacher, enforcer, soothsayer, scapegoat: the purpose of the CISO in commercial organisations}
+      \field{type}{phdthesis}
+      \field{year}{2023}
+      \keyw{CISO,Cyber security,Interpretive research,Business and Society}
+    \endentry
+    \entry{monzelo2019role}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6f2d063d772382a2c64b378a69c22da1}{%
+           family={Monzelo},
+           familyi={M\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=09c3ca5b20096b1bbe9f94dfac745797}{%
+           family={Nunes},
+           familyi={N\bibinitperiod},
+           given={Sérgio},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6dde1fefd7a9a722c919957f81f7c54f}
+      \strng{fullhash}{6dde1fefd7a9a722c919957f81f7c54f}
+      \strng{bibnamehash}{6dde1fefd7a9a722c919957f81f7c54f}
+      \strng{authorbibnamehash}{6dde1fefd7a9a722c919957f81f7c54f}
+      \strng{authornamehash}{6dde1fefd7a9a722c919957f81f7c54f}
+      \strng{authorfullhash}{6dde1fefd7a9a722c919957f81f7c54f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Role of the Chief Information Security Officer (CISO) in Organizations}
+      \field{year}{2019}
+    \endentry
+    \entry{kark2010market}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6d0dcc68e0d72d10883f0ff25b1aa7d8}{%
+           family={Kark},
+           familyi={K\bibinitperiod},
+           given={Khalid},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b8ccb32f0048aa8a1e14c4a3a3202f14}{%
+           family={Penn},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0c3936b0ac62609fc9cdd5935f99801d}{%
+           family={Whiteley},
+           familyi={W\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=42dbd75e011254a82d32eec4eecd5733}{%
+           family={Coit},
+           familyi={C\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ff8e37ba5414207f00683e7152ab98a}
+      \strng{fullhash}{d9cedd2ac5ebe0fa97cbbc8a688a8af9}
+      \strng{bibnamehash}{3ff8e37ba5414207f00683e7152ab98a}
+      \strng{authorbibnamehash}{3ff8e37ba5414207f00683e7152ab98a}
+      \strng{authornamehash}{3ff8e37ba5414207f00683e7152ab98a}
+      \strng{authorfullhash}{d9cedd2ac5ebe0fa97cbbc8a688a8af9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Report, Forrester Research, Cambridge, MA}
+      \field{title}{Market overview: Managed security services}
+      \field{year}{2010}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
