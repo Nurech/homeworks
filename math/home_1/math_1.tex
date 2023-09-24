@@ -1,0 +1,40 @@
+%! Author = partsjoo
+%! Date = 24.09.2023
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{alphalph}
+
+% Alphanumeric Chapter Counter
+\newcounter{alphachapter}
+\newcommand{\alphachapter}[1]{%
+  \refstepcounter{alphachapter}%
+  \section*{Chapter \AlphAlph{\value{alphachapter}}: #1}
+}
+
+% Document
+\begin{document}
+
+  \alphachapter{First Chapter}
+  \subsection*{Assignment 1}
+% Content for Assignment 1
+
+  \subsection*{Assignment 2}
+% Content for Assignment 2
+
+  \subsection*{Assignment 3}
+% Content for Assignment 3
+
+  \subsection*{Assignment 4}
+% Content for Assignment 4
+
+  \subsection*{Assignment 5}
+% Content for Assignment 5
+
+  \alphachapter{Second Chapter}
+% Content for Second Chapter
+
+\end{document}

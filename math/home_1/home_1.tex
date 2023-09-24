@@ -1,0 +1,170 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault,ultralight]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+\usepackage{appendix}
+
+\usepackage{graphicx}
+\usepackage{amsfonts} 
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{fdsymbol}
+\usepackage{wasysym}
+\usepackage{multicol}
+\usepackage{amsmath,seqsplit}
+\usepackage{algorithm, algorithmic}
+\usepackage{tcolorbox}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ right=20mm,
+ left=25mm,
+ top=25mm,
+ bottom=25mm,
+ }
+ 
+\usepackage{seqsplit}
+\newcommand\foo[2]{%
+    \begin{minipage}{#1}
+    \seqsplit{#2}
+    \end{minipage}
+}
+
+\setlength{\columnsep}{1cm}
+\setlength\parindent{0pt}
+
+\definecolor{pink}{RGB}{244,194,194}
+\definecolor{green}{RGB}{143,188,143}
+\definecolor{red}{RGB}{190,0,50}
+\definecolor{ttgrey}{rgb}{0.58,0.59,0.69}
+\definecolor{ttblue}{rgb}{0.2,0.17,0.38}
+\definecolor{ttred}{rgb}{0.67,0.07,0.32}
+
+
+\begin{document}
+
+\begin{tcolorbox}[colframe=ttblue, colback=ttblue!10]
+\begin{center}
+\begin{large}
+\textbf{First homework Joosep Parts 221963IVCM}
+\end{large}
+\end{center}
+\end{tcolorbox}
+
+\section*{Tasks}
+
+\paragraph{Task 1.} Assume that the Affine cipher is implemented in $\mathbb{Z}_{97}$, not in $\mathbb{Z}_{26}$. (Imagine that we just
+extended alphabet, added a set of special symbols. But the first 26 letters stay the same as in English alphabet.)\\
+
+1. For this modified Affine cipher over \( \mathbb{Z}_{97} \), the encryption and decryption functions remain structurally the same but
+adapt to the new modulo.
+
+$$\text{Encryption: } Enc(m) = a\cdot m + b (\mod 97)$$
+$$\text{Decryption: } Dec(c) = a^{-1}(c - b) (\mod 97)$$
+
+
+2. For keys I would need to consider all characters that have a multiplicative inverse modulo 97. Since $b$ can be any character from 0
+to 96 (incl.), there are 97 choices(keys) for $b$.\\
+
+
+3. We read English alphabet and get numerical equivalents for B, U, H are 1, 20, and 7. We do equations to solve for a and b.
+To find the encryption and decryption keys, solve the following equations to find a and b. I use Extended Euclidean Algorithm, find a.
+And then use value a to find b.
+\begin{align*}
+  &\text{1. Given equations I use first and second to find a and b:} \\
+  &81 = a \cdot 1 + b \mod 97 \\
+  &71 = a \cdot 20 + b \mod 97 \\
+  &37 = a \cdot 7 + b \mod 97 \\
+\end{align*}
+\begin{align*}
+  &\text{2. Solve for } a \text{ and } b: \\
+  &\text{First eliminate } b \text{ by subtracting the first equation from the second:} \\
+  &(71 - 81) = a \cdot (20 - 1) \\
+  &-10 = 19a \\
+  &19a = -10 \mod 97 \\
+  &19a = 87 \mod 97 \\
+\end{align*}
+\begin{align*}
+  &\text{Now, find } a^{-1} \text{, the multiplicative inverse of } 19 \mod 97 \\
+  &a^{-1} = 19^{-1} \mod 97 \\
+  &a^{-1} = 66 \mod 97 \\
+  & \\
+  &\text{Solve for } a: \\
+  &a = 66 \cdot 87 \mod 97 \\
+  &a = 17 \mod 97 \\
+  & \\
+  &\text{Now solve for } b \text{ using the first equation:} \\
+  &b = 81 - a \cdot 1 \mod 97 \\
+  &b = 81 - 17 \cdot 1 \mod 97 \\
+  &b = 64 \mod 97 \\
+\end{align*}
+\begin{align*}
+  &\text{So, } (a, b) = (17, 64) \mod 97 \\
+  &\text{3. To decrypt } c' = [59, 62, 90], \\
+  &\text{use } m' = a^{-1}(c' - b) \mod 97 \\
+  & \\
+  &\text{First find } a^{-1} \text{, the multiplicative inverse of } a \mod 97: \\
+  &a^{-1} = 17^{-1} \mod 97 \\
+  &a^{-1} = 69 \mod 97 \\
+  & \\
+  &\text{Now decrypt each element of } c': \\
+  &m'_1 = 69(59 - 64) \mod 97 = 69(-5) \mod 97 = 90 \mod 97 = 90 \quad (\text{X}) \\
+  &m'_2 = 69(62 - 64) \mod 97 = 69(-2) \mod 97 = 48 \mod 97 = 48 \quad (\text{Y}) \\
+  &m'_3 = 69(90 - 64) \mod 97 = 69(26) \mod 97 = 88 \mod 97 = 88 \quad (\text{Z}) \\
+\end{align*}
+
+\paragraph{Task 2.} Look carefully at the following frequency diagrams.
+\begin{enumerate}
+    \item Well just like we did in class, by following the patterns and deducting possbilites we could come to a 'certain' conclusion by
+    analyzing the English alphabet frequenzy. I took the probabilties table from 2nd week. Classical ciphers pdf.
+    \begin{enumerate}
+            \item Figure 1: Diagram is identical to Diagram 3 this seems to correspond to a normal distribution, so I would say it
+            represents plaintext . Distribution
+            of Z, Q and J is >0.2 percent and letters such as E, T and A are most highest frequency.
+            \item Figure 2: Diagram 2. This looks like plain text distribution however, in addition to shifting the frequnzies have also
+            changed places. So it affine cipher.
+      \item Figure 3: Diagram 3 this seems to correspond to a normal distribution, so I would say it represents plaintext. Distribution
+            of Z, Q and J is >0.2 percent and letters such as E, T and A are most highest frequency.
+      \item Figure 4: Diagram 4 -  Vigenère cipher because the keyword causes letters to repeat in the ciphertext, which makes frequency
+            more uniform.
+      \item Figure 5: Diagram 5 this is shift cipher locations of
+            frequnzies have changed locations but the order is same.
+    \end{enumerate}
+    \item\begin{minipage}{\linewidth}
+          \begin{proof}
+            \begin{align*}
+              &\text{Let the plaintext alphabet be represented as } \mathcal{A} = \{A, B, \ldots, Z\}. \\
+              &\text{Let the ciphertext alphabet be represented as } \mathcal{B} = \{A, B, \ldots, Z\}. \\
+              &\text{Let the most frequent letter in the plaintext be 'E'.} \\
+              &\text{Let the most frequent letter in the ciphertext be 'T'.} \\
+              & \\
+              &\text{According to Figure 1 or 3, in the plaintext, the most frequent letter is 'E'.} \\
+              &\text{According to Figure 5, in the ciphertext, the most frequent letter is 'T'.} \\
+              & \\
+              &\text{If we consider 'A' to be 0 and 'Z' to be 25, then:} \\
+              &E = 4, \quad T = 19 \\
+              & \\
+              &\text{The shift from 'E' to 'T' can be represented as:} \\
+              &\text{Shift} = T - E \\
+              &\text{Shift} = 19 - 4 \\
+              &\text{Shift} = 15 \\
+              & \\
+              &\text{Therefore, the shift cipher has shifted the letters by 15 places.}
+            \end{align*}
+          \end{proof}
+    \end{minipage}
+\end{enumerate}
+
+
+\paragraph{Task 3.} Assuming that the rate of English language is $1.8$, find unicity distance of affine cipher.
+
+\paragraph{Task 4.} Suppose you intercepted the following ciphertext $c = 00010010 \quad 00000111 \quad 11101010$. You know that a 3-letter word was encrypted using one-time pad (to convert letters to binary strings ASCII table was used). Can you bruteforce keys and learn the message that was encrypted?
+
+\paragraph{Task 5.}
+You have intercepted the following ciphertext encrypted using Vigenere cipher. You have a cryptoanalyst friend who can help you break the cipher, but he asked you to \textbf{find key length}. \\
+
+\paragraph{Bonus Task} 
+
+
+\end{document}

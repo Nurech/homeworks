@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="ciso roadmap">
+      <change afterPath="$PROJECT_DIR$/auxil/Latex_Template.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auxil/Latex_Template.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auxil/home_1.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auxil/home_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auxil/math_1.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auxil/math_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math/home_1/Latex_Template.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math/home_1/home_1.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math/home_1/math_1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/main.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.bbl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/main.bcf" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.bcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/main.blg" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.blg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/chapters.tex" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/chapters.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/references.bib" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/references.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/settings.tex" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/settings.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/tree.tex" beforeDir="false" afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework1_ciso_roadmap/tree.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,42 +49,42 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/partsjoo/IdeaProjects/homeworks/homework1_cybersecurity_management_ciso_roadmap&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/partsjoo/IdeaProjects/homeworks/math",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\math" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\cyber_security_management_ITC8230\homework1_ciso_roadmap" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework1_cybersecurity_management_ciso_roadmap" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework1_cybersecurity_management_ciso_roadmap\misc" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks" />
-      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework6\assets" />
-      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\math\home_1" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\math" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\cyber_security_management_ITC8230\homework1_ciso_roadmap" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\privacy_preserving_technologies" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\Cyber Security Management (ITC8230)" />
-      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework1_cybersecurity_management_ciso_roadmap\chapters" />
-      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework1_cybersecurity_management_ciso_roadmap\misc" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.main (3)">
+  <component name="RunManager" selected="LaTeX.home_1">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -118,6 +123,27 @@
         <output-format>PDF</output-format>
         <latex-distribution>MIKTEX</latex-distribution>
         <has-been-run>false</has-been-run>
+        <bib-run-config>[]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
+    <configuration name="home_1" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>NONE</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <main-file>$PROJECT_DIR$/math/home_1/home_1.tex</main-file>
+        <output-path>$PROJECT_DIR$/out</output-path>
+        <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
+        <compile-twice>false</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>MIKTEX</latex-distribution>
+        <has-been-run>true</has-been-run>
         <bib-run-config>[]</bib-run-config>
         <makeindex-run-config>[]</makeindex-run-config>
       </texify>
@@ -186,6 +212,27 @@
       </texify>
       <method v="2" />
     </configuration>
+    <configuration name="math_1" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>NONE</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <main-file>$PROJECT_DIR$/math/math_1.tex</main-file>
+        <output-path>$PROJECT_DIR$/out</output-path>
+        <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
+        <compile-twice>false</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>MIKTEX</latex-distribution>
+        <has-been-run>true</has-been-run>
+        <bib-run-config>[]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-makeindex>
         <program>MAKEINDEX</program>
@@ -204,66 +251,22 @@
       </texify-makeindex>
       <method v="2" />
     </configuration>
-    <configuration name="copy_out_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework5/assets" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework5/assets/copy_out_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="update_date_watermark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework6/assets" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework6/assets/update_date_watermark.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="BibTeX.main bibliography" />
+      <item itemvalue="LaTeX.home_1" />
+      <item itemvalue="LaTeX.math_1" />
       <item itemvalue="LaTeX.main (3)" />
       <item itemvalue="LaTeX.main (2)" />
       <item itemvalue="LaTeX.main (1)" />
       <item itemvalue="Makeindex.main makeglossarieslite" />
-      <item itemvalue="Python.update_date_watermark" />
-      <item itemvalue="Python.copy_out_file" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="LaTeX.home_1" />
+        <item itemvalue="LaTeX.math_1" />
         <item itemvalue="LaTeX.main (3)" />
         <item itemvalue="LaTeX.main (2)" />
         <item itemvalue="LaTeX.main (1)" />
-        <item itemvalue="Python.update_date_watermark" />
-        <item itemvalue="Python.copy_out_file" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +291,8 @@
       <workItem from="1686977613109" duration="2770000" />
       <workItem from="1694245934310" duration="10707000" />
       <workItem from="1694616625109" duration="6568000" />
-      <workItem from="1694657231183" duration="6924000" />
+      <workItem from="1694657231183" duration="7902000" />
+      <workItem from="1695531292017" duration="6142000" />
     </task>
     <task id="LOCAL−00001" summary="hw4">
       <created>1681523770099</created>
@@ -351,7 +355,14 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1694404273901</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="ciso roadmap">
+      <option name="closed" value="true" />
+      <created>1694664970051</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1694664970051</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

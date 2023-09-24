@@ -1,0 +1,278 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault,ultralight]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+\usepackage{appendix}
+
+\usepackage{graphicx}
+\usepackage{amsfonts} 
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{fdsymbol}
+\usepackage{wasysym}
+\usepackage{multicol}
+\usepackage{amsmath,seqsplit}
+\usepackage{algorithm, algorithmic}
+\usepackage{tcolorbox}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ right=20mm,
+ left=25mm,
+ top=25mm,
+ bottom=25mm,
+ }
+ 
+\usepackage{seqsplit}
+\newcommand\foo[2]{%
+    \begin{minipage}{#1}
+    \seqsplit{#2}
+    \end{minipage}
+}
+
+\setlength{\columnsep}{1cm}
+\setlength\parindent{0pt}
+
+\definecolor{pink}{RGB}{244,194,194}
+\definecolor{green}{RGB}{143,188,143}
+\definecolor{red}{RGB}{190,0,50}
+\definecolor{ttgrey}{rgb}{0.58,0.59,0.69}
+\definecolor{ttblue}{rgb}{0.2,0.17,0.38}
+\definecolor{ttred}{rgb}{0.67,0.07,0.32}
+
+
+\begin{document}
+
+\begin{tcolorbox}[colframe=ttblue, colback=ttblue!10]
+\begin{center}
+\begin{large}
+\textbf{First homework}
+\end{large}
+\end{center}
+\end{tcolorbox}
+
+\section{Important notices:}
+\begin{itemize}
+    \item \textcolor{ttred}{\textbf{If you have any questions regarding the tasks, please do not hesitate to contact instructors.}} 
+    \item This assignment gives you 15\% of the final grade.
+    \item \textbf{Provide an explicit explanation to your solutions}. Providing answers to the task with no explanation will give you $0$ points.
+    \item Your solution should be in the PDF format. You may either scan a handwritten solution or type your solution in Latex (\LaTeX) and export it into PDF. Submission made in Word typeset are not accepted.
+    \item You may write the programming code to solve any task. However, you have to explain explicitly the code logic in your submission and how it helped you solving the task. Providing the code with no explanations will give you $0$ points for the task. You must submit your code either in the appendix of your submission or to a public repository (GitHub, Bitbucket, Gitlab).
+    \item Using online tools or/and someone's else code to solve the tasks is prohibited. If you are suspected of this, then you will receive $0$ for the task.
+    \item Plagiarism is prohibited. If you are suspected of this, then you will receive $0$ for the task and will be reported to the Dean's office and Program Manager.
+    \item This assignment is due \textcolor{ttred} {\textbf{8th of October, 23:59}}. 
+\end{itemize}
+
+\newpage
+
+\section*{Tasks}
+
+\paragraph{Task 1.} Assume that the Affine cipher is implemented in $\mathbb{Z}_{97}$, not in $\mathbb{Z}_{26}$. (Imagine that we just extended alphabet, added a set of special symbols. But the first 26 letters stay the same as in English alphabet.) 
+\begin{enumerate}
+    \item Write down encryption and decryption functions for this modification of Affine cipher.
+    \item What is the number of possible keys?
+    \item Suppose that modulus $p=97$ is public. Malicious Eve intercepts 3-letter ciphertext $c = 81 \quad 71 \quad 37$. Assume that Eve also knows corresponding plaintext (airport code) $m = B \quad	U \quad H$. Find out the encryption key, decryption key and use it to decrypt message $c' = 59 \quad 62 \quad 90$ (The result should be 3-letter airport code).
+\end{enumerate}
+
+\paragraph{Task 2.} Look carefully at the following frequency diagrams.
+\begin{enumerate}
+    \item Decide which diagram represents plaintext, shift cipher, affine cipher, permutation cipher, Vigenère cipher. Please, justify your answer.
+    \item Using diagram that represents shift cipher, identify what is the encryption key?
+\end{enumerate}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[height=0.25\textheight]{}
+        \caption{Diagram 1}
+
+    \end{center}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{center}
+       \includegraphics[height=0.25\textheight]{}
+        \caption{Diagram 2}
+
+    \end{center}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[height=0.25\textheight]{}
+        \caption{Diagram 3}
+
+    \end{center}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[height=0.25\textheight]{}
+        \caption{Diagram 4}
+
+    \end{center}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[height=0.25\textheight]{}
+        \caption{Diagram 5}
+
+    \end{center}
+\end{figure}
+\newpage
+
+
+\paragraph{Task 3.} Assuming that the rate of English language is $1.8$, find unicity distance of affine cipher.
+
+\paragraph{Task 4.} Suppose you intercepted the following ciphertext $c = 00010010 \quad 00000111 \quad 11101010$. You know that a 3-letter word was encrypted using one-time pad (to convert letters to binary strings ASCII table was used). Can you bruteforce keys and learn the message that was encrypted?
+
+\paragraph{Task 5.}
+You have intercepted the following ciphertext encrypted using Vigenere cipher. You have a cryptoanalyst friend who can help you break the cipher, but he asked you to \textbf{find key length}. \\
+
+$ctx = $\foo{5in}{FHKOJASZAFUDTBJQLVMKFHKZKFWGACXWGGUMNGAVKSNWEWWNMPANKWHFHKUIXIJMFEUJLGZLEBJDOAOJMDUWTKOAEGDEZZAUNMBQAPKVPQAXTATEGLNQSYVKOKCIUMLCIAEHGXRKTUXQUNZVGIGXGHRITLQDSOVVTEXQITTJQTQCZQQZBABRQEBMUFHKXQXTKZIQIYBYMSCWTFHZEQXOISGPDUWTEATLCFROKMETGQTOAYMKRYUCOQTNQOIHKVAAUCMTQLGBGROXKNMSYPGIOATFPRUXYMSZMRMPKZDMSQMVEOTGQGRNMCPPATNDUMAHDOSCPPEXGQGRLMGFPKTVKOAEKFHHQVEOLKJMLQWTENKIMGPHMJUNJGQGITDKEIHTGSRGJAAUXVQEEGVFECXMGOHMWVKOAZEANQ \\}
+
+
+Once you figured out possible key length, use additional material from Appendix A to \textbf{confirm your solution using index of coincidence}. For this part of the task you are allowed to use online resources for frequency analysis and you must reference it properly. 
+
+\textbf{HINT:} To solve this task, use explanations from "Historical Ciphers" lecture slides.
+
+
+\paragraph{Bonus Task} 
+
+Suppose you encrypt $m$ using an Vigenere cipher of keylength $3$ and then encrypt the result using
+Vigenere cipher with different key of length $5$. Is there any advantage of doing this, rather than using a
+single encryption function? Why or why not?
+
+
+\appendix
+
+\section{Additional material for Task 5 (part 2)}
+
+\paragraph{For key length 2 \\}
+$Y_0 = $ \foo{5in}{FKJSAUTJLMFKKWAXGUNAKNEWMAKHHUXJFULZEJOOMUTOEDZANBAKPATTGNSVOCULIEGRTXUZGGGRTQSVTXITQQZQBBQBUHXXKIIBMCTHEXIGDWETCRKEGTAMRUOTQIKAUMQGGOKMYGOTPUYSMMKDSMETQRMPANUADSPEGGLGPTKAKHQELJLWEKMPMUJQIDEHGRJAXQEVEXGHWKAEN \\}
+
+
+$Y_1 =$ \foo{5in}{HOAZFDBQVKHZFGCWGMGVSWWNPNWFKIIMEJGLBDAJDWKAGEZUMQPVQXAELQYKKIMCAHXKUQNVIXHILDOVEQTJTCQZAREMFKQTZQYYSWFZQOSPUTALFOMTQOYKYCQNOHVACTLBRXNSPIAFRXMZRPZMQVOGGNCPTDMHOCPXQRMFKVOEFHVOKMQTNIGHJNGGTKITSGAUVEGFCMOMVOZAQ \\}
+
+\paragraph{For key length 3 \\}
+
+$Y_0 =$ \foo{5in}{FOSFTQMHKGXGNVNWMNHKXMUGEDODTADZNQKQTENYOILAGKXNGXRLSVXTQCQAQMHQKQBSTZXSDTTFKTTYRCTOKAMLGXMPOFUMMPDQEGRCADAOPXGMPVAFQOJQEIPJJGDIGGAVEFXOWOEQ \\}
+
+$Y_1 = $ \foo{5in}{HJZUBLKKFAWUGKWWPKFUIFJZBOJUKEEAMAVAAGQVKUCEXTQZIGIQOTQTTZZBEUKXZIYCFEOGUELRMGOMYONIVUTGRKSGAPXSRKMMOQNPTUHSPGRGKKEHVLMWNMHUGIKHSJUQGEMHVAA \\}
+
+$Y_2 = $ \foo{5in}{KAADJVFZWCGMASENAWHIJELLJAMWOGZUBPPXTLSKCMIHRUUVGHTDVEIJQQBRBFXTIYMWHQIPWACOEQAKUQQHACQBONYITRYZMZSVTGMPNMDCEQLFTOKHEKLTKGMNQTETRAXEVCGMKZN \\}
+
+\paragraph{For key length 4 \\}
+
+$Y_0 = $ \foo{5in}{FJATLFKAGNKEMKHXFLEOMTEZNAPTGSOUIGTUGGTSTIQZBQUXKIMTEIDECKGAROQKUQGKYOPYMKSEQMAUDPGLPKKQLLEMMJIEGJXEEGWAN \\}
+
+$Y_1 = $ \foo{5in}{HAFBVHFCGGSWPWKIEGBADKGZMPQALYKMAXUNIHLOETTQAEFQZYSFQSUAFMQYYQOVCLRNPARMRZQOGCTMOPQMKOFVKQNGJGTISAVGCOVZQ \\}
+
+$Y_2 = $ \foo{5in}{KSUJMKWXUANWAHUJUZJOUODABKATNVCLERXZGRQVXTQQBBHXIBCHXGWTRETMUTIAMGOMGTUSMDMTRPNASEGGTAHEJWKPUQDHRAQVXHKE \\}
+
+$Y_3 = $ \foo{5in}{OZDQKZGWMVWNNFIMJLDJWAEUQVXEQKICHKQVXIDVQJCZRMKTQYWZOPTLOTOKCNHATBXSIFXZPMVGNPDHCXRFVEHOMTIHNGKTGUEFMMOA \\}
+
+\paragraph{For key length 5 \\}
+
+$Y_0 = $ \foo{5in}{FAUQFFXMKWAFXEZDMKDUAQTQOMEKUIRDTTQZQFXQMFXPEFEORQIAQRMIPMMMEGPDDPGFKFEMEGUGESAEEOKA \\}
+
+$Y_1 = $ \foo{5in}{HSDLHWWNSWNHIULODOENPAESKLHTNGISETCBEHTISHODARTAYTHULOSORSPSORPUOERPOHOLNPNIIRUECHON \\}
+
+$Y_2 = $ \foo{5in}{KZTVKGGGNNKKJJEAUAZMKXGYCCGUZXTOXJZABKKYCZIUTOGYUNKCGXYAUZKQTNAMSXLKAHLQKHJTHGXGXMAQ \\}
+
+$Y_3 = $ \foo{5in}{OABMZAGAWMWUMLBOWEZBVTLVIIXXVGLVQQQBMXZBWESWLKQMCQVMBKPTXMZMGMTACGMTEQKWIMGDTJVVMWZ \\}
+
+$Y_4 = $ \foo{5in}{JFJKKCUVEPHIFGJJTGAQPANKUARQGHQVITQRUQIYTQGTCMTKOOATGNGFYRDVQCNHPQGVKVJTMJQKGAQFGVE \\}
+
+\paragraph{For key length 6 \\}
+
+$Y_0 = $ \foo{5in}{FSTMKXNNMHXUEOTDNKTNOLGXGRSXQQQHKBTXDTKTRTKMGMOUMDERAAPGPAQJEPJDGAEXWE \\}
+
+$Y_1 = $ \foo{5in}{HZBKFWGWPFIJBJKEMVAQKCXQIIOQTZEKZYFOULMOYNVTRSAXRMONTHPRKEVMNHGKSUGMVA \\}
+
+$Y_2 = $ \foo{5in}{KAJFWGAEAHJLJMOZBPTSCIRUGTVIQBBXIMHIWCEAUQAQOYTYMSTMNDELTKELKMQERXVGKN \\}
+
+$Y_3 = $ \foo{5in}{OFQHGGVWNKMGDDAZQQEYIAKNXLVTCAMQQSZSTFTYCOALXPFMPQGCDOXMVFOQIJGIGVFOOQ \\}
+
+$Y_4 = $ \foo{5in}{JULKAUKWKUFZOUEAAAGVUETZGQTTZBUXICEGERGMOIUGKGPSKMQPUSGGKHLWMUIHJQEHA \\}
+
+$Y_5 = $ \foo{5in}{ADVZCMSNWIELAWGUPXLKMHUVHDEJQRFTYWQPAOQKQHCBNIRZZVGPMCQFOHKTGNTTAECMZ \\}
+
+\paragraph{For key length 7 \\}
+
+$Y_0 = $ FZJHAMNPHMZATEBQGKLXUXQEQZBQIWXUCTMQKTOPPZDOMDSQPEEQMNDSXFHZ
+
+$Y_1 = $ HAQKCNWAKFLOKZQALOCRNGDXTBMXYTOWFGKTVQXGRMMTCUCGKKOWGJKRVEME
+
+$Y_2 = $ KFLZXGENUEEJOZAXNKIKZHSQQAUTBFITRQRNALKIURSGPMPRTFLTPGEGQCWA
+
+$Y_3 = $ OUVKWAWKIUBMAAPTQCATVROICBFKYHSEOTYQAGNOXMQQPAPLVHKEHQIJEXVN
+
+$Y_4 = $ JDMFGVWWXJJDEUKASIEUGIVTZRHZMZGAKOUOUBMAYPMGAHEMKHJNMGHAEMKQ
+
+$Y_5 = $ ATKWGKNHILDUGNVTYUHXITVTQQKISEPTMACICGSTMKVRTDXGOQMKJITAGGO
+
+$Y_6 = $ SBFGUSMFJGOWDMPEVMGQGLTJQEXQCQDLEYOHMRYFSZENNOGFAVLIUTGUVOA
+
+\paragraph{For key length 8 \\}
+
+$Y_0 = $ FALKGKMHFEMENPGOITGTTQBUKMEDCGRQUGYPMSQADGPKLEMIGXEWN
+
+$Y_1 = $ HFVFGSPKEBDGMQLKAUILETAFZSQUFQYOCRPRRQGTOQKFKNJTSVCVQ
+
+$Y_2 = $ KUMWUNAUUJUDBANCEXGQXQBHICXWRTUIMOGUMMRNSGTHJKUDRQXK
+
+$Y_3 = $ ODKGMWNIJDWEQXQIHQXDQCRKQWOTOOCHTXIXPVNDCRVHMINKGEMO
+
+$Y_4 = $ JTFANEKXLOTZATSUGUGSIZQXITIEKAOKQKOYKEMUPLKQLMJEJEGA
+
+$Y_5 = $ ABHCGWWIGAKZPAYMXNHOTQEQYFSAMYQVLNAMZOCMPMOVQGGIAGOZ
+
+$Y_6 = $ SJKXAWHJZOOAKTVLRZRVTQBXBHGTEMTAGMTSDTPAEGAEWPQHAVHE
+
+$Y_7 = $ ZQZWVNFMLJAUVEKCKVIVJZMTYZPLTKNABSFZMGPHXFEOTHGTUFMA
+
+\paragraph{For key length 9 \\}
+
+$Y_0 = $ FFMGNWHMEDDQTYLKGLXCQQBZDFTCKLMFMQRDPMAOEJDGEOE
+
+$Y_1 = $ HUKAGWFFBUEAAVCTIQQZEXYEUROOVGSPRMNUPGELNUKJGHA
+
+$Y_2 = $ KDFCANHEJWZPTKIUGDIQBTMQWOAQABYRMVMMEFKKKNEAVMN
+
+$Y_3 = $ OTHXVMKUDTZKEOAXXSTQMKSXTKYTAGPUPECAXPFJIJIAFWQ
+
+$Y_4 = $ JBKWKPUJOKAVGKEQGOTZUZCOEMMNURGXKOPHGKHMMGHUEV
+
+$Y_5 = $ AJZGSAILAOUPLCHUHVJBFIWIAEKQCOIYZTPDQTHLGQTXCK
+
+$Y_6 = $ SQKGNNXGOANQNIGNRVQAHQTSTTROMXOMDGAOGVQQPGGVXO
+
+$Y_7 = $ ZLFUWKIZJEMAQUXZITTBKIFGLGYITKASMQTSRKVWHISQMA
+
+$Y_8 = $ AVWMEWJLMGBXSMRVTEQRXYHPCQUHQNTZSGNCLOETMTREGZ
+
+\paragraph{For key length 10 \\}
+
+$Y_0 = $ FUFXKAXZMDATOEURTQQXMXEERIQMPMEPDGKEEUEAEK
+
+$Y_1 = $ HDHWSNILDEPEKHNIECETSOATYHLSRPOPOROONNIUCO
+
+$Y_2 = $ KTKGNKJEUZKGCGZTXZBKCITGUKGYUKTASLALKJHXXA
+
+$Y_3 = $ OBZGWWMBWZVLIXVLQQMZWSLQCVBPXZGTCMEKIGTVMZ
+
+$Y_4 = $ JJKUEHFJTAPNURGQIQUITGCTOAGGYDQNPGKJMQGQGE
+
+$Y_5 = $ AQFMWFEDKUQQMKIDTZFQFPFOQARIMMGDPFFMGGSEOA
+
+$Y_6 = $ SLWNWHUOONASLTGSTBHIHDRATUOOSSRUEPHLPIREHN
+
+$Y_7 = $ ZVGGNKJAAMXYCUXOJAKYZUOYNCXAZQNMXKHQHTGGMQ
+
+$Y_8 = $ AMAAMULOEBTVIXGVQBXBEWKMQMKTMMMAGTQWMDJVW
+
+$Y_9 = $ FKCVPIGJGQAKAQHVTRQYQTMKOTNFRVCHQVVTJKAFV
+
+\end{document}
