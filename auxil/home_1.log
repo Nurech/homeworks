@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  24 SEP 2023 13:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  24 SEP 2023 13:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1295,12 +1295,29 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 170--173
+home_1.tex:171: You can't use `macro parameter character #' in horizontal mode.
+<argument> .../text-characterisation/statistics/##
+                                                  unicity-distance
+l.171 ...cterisation/statistics/#unicity-distance}
+                                                  \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (25.82854pt too wide) in paragraph at lines 170--172
+\T1/FiraSans-OsF/ultralight/n/10 For fur-ther ref-er-ences see []http://practic
+alcryptography.com/cryptanalysis/text-characterisation/statistics/unicity-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on inp
-ut line 176.
+ut line 175.
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/fira\ts1firasans-osf
 .fd
@@ -1310,16 +1327,16 @@ s-OsF.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/ul/n' in size <10> not availab
 le
 (Font)              Font shape `TS1/FiraSans-OsF/ultralight/n' tried instead on
- input line 176.
+ input line 175.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/ultralight/n' will be
-(Font)              scaled to size 10.0pt on input line 176.
+(Font)              scaled to size 10.0pt on input line 175.
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--200
+Underfull \hbox (badness 10000) in paragraph at lines 196--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
@@ -1328,12 +1345,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--210
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--408
+Underfull \hbox (badness 10000) in paragraph at lines 404--407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--418
+Underfull \hbox (badness 10000) in paragraph at lines 409--417
 
  []
 
@@ -1367,9 +1384,9 @@ sers/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/symbols/msbm10.pfb>
 Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\home_1.pdf (11 p
-ages, 200374 bytes).
+ages, 200698 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="math">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/home_1.aux" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/home_1.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/home_1.log" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/home_1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/math/home_1/home_1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/math/home_1/home_1.tex" afterDir="false" />
     </list>
@@ -281,7 +279,7 @@
       <workItem from="1694245934310" duration="10707000" />
       <workItem from="1694616625109" duration="6568000" />
       <workItem from="1694657231183" duration="7902000" />
-      <workItem from="1695531292017" duration="14166000" />
+      <workItem from="1695531292017" duration="14491000" />
     </task>
     <task id="LOCAL−00001" summary="hw4">
       <created>1681523770099</created>
@@ -358,7 +356,14 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1695539871779</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="math">
+      <option name="closed" value="true" />
+      <created>1695551033532</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1695551033532</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
