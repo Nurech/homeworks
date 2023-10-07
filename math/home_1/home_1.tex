@@ -195,37 +195,43 @@ So, \( m' = [4, 8, 13] \), which corresponds to the airport code "EIN".
 \end{enumerate}
 
 
-\paragraph{Task 3.} Assuming that the rate of English language is $1.8$, find unicity distance of affine cipher.
+\paragraph{Task 3.} Assuming that the rate of the English language is \(1.8\), find the unicity distance of the affine cipher.
 
-
-The unicity distance \( U \) for an affine cipher can be calculated using Shannon's formula:
+The unicity distance \( U \) for an affine cipher can be calculated using the formula:
 
 \[
-  U = \frac{\log_2 M}{R - 1}
+  U = \frac{H(K)}{D}
 \]
-For further references see \href{http://practicalcryptography.com/cryptanalysis/text-characterisation/statistics/#unicity-distance}{http://practicalcryptography.com/cryptanalysis/text-characterisation/statistics/#unicity-distance}\\
 
 Where:
 \begin{itemize}
   \item \( U \) is the unicity distance
-  \item \( R \) is the rate of the natural language (given as 1.8 for English)
-  \item \( M \) is the size of the key space
+  \item \( H(K) \) is the entropy of the key space
+  \item \( D \) is the redundancy of the natural language (calculated as \( R - r \))
 \end{itemize}
+1) Rate and Redundancy:
+For the English language, \( R = 4.7 \) absolute($\log_2 26$) and \( r = 1.8 \)(english rate), so redundancy (D) \( D = R - r = 4.7 - 1
+.8 = 2.9 \).
 
+2) Key Space:
 For an affine cipher over an alphabet of size \( N \), the key space size \( M \) is \( N \times \phi(N) \), given that \( a \) (the multiplicative key) must be chosen such that \( \gcd(a, N) = 1 \).
 
-If we're dealing with the English alphabet, \( N = 26 \), and Euler's totient function \( \phi(26) = 12 \).
+For the English alphabet, \( N = 26 \) and Euler's totient function \( \phi(26) = 12 \).
 
 Therefore, \( M = 26 \times 12 = 312 \).
 
-Plugging these into Shannon's formula, we get:
+3) Entropy of the Key Space:
+The entropy of the key space \( H(K) \) can be calculated as \( \log_2 312 \approx 8.3 \).
+
+4) Unicity Distance:
+we get:
 
 \[
-  U = \frac{\log_2 312}{1.8 - 1} = \frac{\log_2 312}{0.8} \approx \frac{8.29}{0.8} \approx 10.36
+  U = \frac{8.3}{2.9} \approx 2.86
 \]
 
-So the unicity distance \( U \) for an affine cipher with these parameters is approximately 10.36 characters.
-
+So the unicity distance \( U \) for an affine cipher with these parameters is approximately \(2.86\).
+At least 3 characters is needed to try and attempt to break the cipher.
 
 
 \paragraph{Task 4.} Suppose you intercepted the following ciphertext $c = 00010010 \quad 00000111 \quad 11101010$. You know that a
