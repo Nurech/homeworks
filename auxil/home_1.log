@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  24 SEP 2023 13:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  7 OCT 2023 04:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1067,24 +1067,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\home_1.aux)
 \openout1 = `home_1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 \c@mv@tabular=\count338
 \c@mv@boldtabular=\count339
 
@@ -1151,9 +1151,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 47.
+ on input line 46.
 
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 46.
 (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\home_1.out)
 (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\home_1.out)
 \@outlinefile=\write4
@@ -1162,143 +1162,137 @@ Package hyperref Info: Link coloring OFF on input line 47.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/ul/n' in size <12> not availabl
 e
 (Font)              Font shape `T1/FiraSans-OsF/ultralight/n' tried instead on 
-input line 51.
+input line 50.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/ultralight/n' will be
-(Font)              scaled to size 12.0pt on input line 51.
+(Font)              scaled to size 12.0pt on input line 50.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <12> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 52.
+line 51.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 52.
+(Font)              scaled to size 12.0pt on input line 51.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/ul/n' in size <14.4> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/ultralight/n' tried instead on 
-input line 57.
+input line 56.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/ultralight/n' will be
-(Font)              scaled to size 14.4pt on input line 57.
+(Font)              scaled to size 14.4pt on input line 56.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 57.
+line 56.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 57.
+(Font)              scaled to size 14.4pt on input line 56.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 59.
+line 58.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 59.
+(Font)              scaled to size 10.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
-(Font)              scaled to size 10.0pt on input line 59.
+(Font)              scaled to size 10.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
-(Font)              scaled to size 7.0pt on input line 59.
+(Font)              scaled to size 7.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
-(Font)              scaled to size 5.0pt on input line 59.
+(Font)              scaled to size 5.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
-(Font)              scaled to size 10.0pt on input line 59.
+(Font)              scaled to size 10.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
-(Font)              scaled to size 7.0pt on input line 59.
+(Font)              scaled to size 7.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
-(Font)              scaled to size 5.0pt on input line 59.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+(Font)              scaled to size 5.0pt on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
 
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
 
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
-(Font)              scaled to size 10.0pt on input line 59.
+(Font)              scaled to size 10.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
-(Font)              scaled to size 7.0pt on input line 59.
+(Font)              scaled to size 7.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
-(Font)              scaled to size 5.0pt on input line 59.
+(Font)              scaled to size 5.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
-(Font)              scaled to size 10.0pt on input line 59.
+(Font)              scaled to size 10.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
-(Font)              scaled to size 7.0pt on input line 59.
+(Font)              scaled to size 7.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
-(Font)              scaled to size 5.0pt on input line 59.
+(Font)              scaled to size 5.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
-(Font)              scaled to size 10.0pt on input line 59.
+(Font)              scaled to size 10.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
-(Font)              scaled to size 7.0pt on input line 59.
+(Font)              scaled to size 7.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
-(Font)              scaled to size 5.0pt on input line 59.
+(Font)              scaled to size 5.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 59.
+(Font)              scaled to size 10.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 59.
+(Font)              scaled to size 7.0pt on input line 58.
 LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 59.
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 59
+(Font)              scaled to size 5.0pt on input line 58.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 58
 .
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/ul/n' in size <7> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/ultralight/n' tried instead on 
-input line 65.
+input line 64.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/ultralight/n' will be
-(Font)              scaled to size 7.0pt on input line 65.
+(Font)              scaled to size 7.0pt on input line 64.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/ul/n' in size <5> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/ultralight/n' tried instead on 
-input line 65.
+input line 64.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/ultralight/n' will be
-(Font)              scaled to size 5.0pt on input line 65.
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-
- []
-
+(Font)              scaled to size 5.0pt on input line 64.
 [1
 
 {C:/Users/partsjoo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-home_1.tex:138: LaTeX Error: Environment proof undefined.
+home_1.tex:173: LaTeX Error: Environment proof undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.138           \begin{proof}
+l.173           \begin{proof}
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-home_1.tex:158: LaTeX Error: \begin{minipage} on input line 137 ended by \end{p
+home_1.tex:193: LaTeX Error: \begin{minipage} on input line 172 ended by \end{p
 roof}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158           \end{proof}
+l.193           \end{proof}
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[2]
-home_1.tex:171: You can't use `macro parameter character #' in horizontal mode.
+home_1.tex:206: You can't use `macro parameter character #' in horizontal mode.
 <argument> .../text-characterisation/statistics/##
                                                   unicity-distance
-l.171 ...cterisation/statistics/#unicity-distance}
+l.206 ...cterisation/statistics/#unicity-distance}
                                                   \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1306,18 +1300,18 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (25.82854pt too wide) in paragraph at lines 170--172
+Overfull \hbox (25.82854pt too wide) in paragraph at lines 205--207
 \T1/FiraSans-OsF/ultralight/n/10 For fur-ther ref-er-ences see []http://practic
 alcryptography.com/cryptanalysis/text-characterisation/statistics/unicity-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on inp
-ut line 175.
+ut line 210.
 
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/fira\ts1firasans-osf
 .fd
@@ -1327,16 +1321,16 @@ s-OsF.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/ul/n' in size <10> not availab
 le
 (Font)              Font shape `TS1/FiraSans-OsF/ultralight/n' tried instead on
- input line 175.
+ input line 210.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/ultralight/n' will be
-(Font)              scaled to size 10.0pt on input line 175.
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--199
+(Font)              scaled to size 10.0pt on input line 210.
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 231--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
@@ -1345,12 +1339,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--209
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--407
+Underfull \hbox (badness 10000) in paragraph at lines 439--442
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--417
+Underfull \hbox (badness 10000) in paragraph at lines 444--452
 
  []
 
@@ -1362,7 +1356,7 @@ Package rerunfilecheck Info: File `home_1.out' has not changed.
 Here is how much of TeX's memory you used:
  37626 strings out of 476334
  865049 string characters out of 5786555
- 1929382 words of memory out of 5000000
+ 1927382 words of memory out of 5000000
  57466 multiletter control sequences out of 15000+600000
  630198 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1384,7 +1378,7 @@ sers/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/symbols/msbm10.pfb>
 Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\home_1.pdf (11 p
-ages, 200698 bytes).
+ages, 200995 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)

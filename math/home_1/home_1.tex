@@ -24,7 +24,6 @@
  bottom=25mm,
  }
 \usepackage{pgfplots}
-\usepackage{seqsplit}
 \usepackage{hyperref}
 \usepackage{tikz}
 \newcommand\foo[2]{%
@@ -66,72 +65,108 @@ $$\text{Encryption: } Enc(m) = a\cdot m + b (\mod 97)$$
 $$\text{Decryption: } Dec(c) = a^{-1}(c - b) (\mod 97)$$
 
 
-2. For keys I would need to consider all characters that have a multiplicative inverse modulo 97. Since $b$ can be any character from 0
-to 96 (incl.), there are 97 choices(keys) for $b$.\\
+2. To calculate the total number of keys, we need to consider the options for both \( a \) and \( b \) in the key \( k = (a, b) \).
+
+Since 97 is a prime number, we use Euler's totient function to find the number of choices for \( a \):
+
+\[
+  \phi(97) = 97 - 1 = 96
+\]
+
+For the additive part \( b \), we have 97 choices, ranging from 0 to 96 inclusive:
+
+\[
+  \text{Choices for \( b \)} = 97
+\]
+
+Therefore, the total number of possible keys is:
+
+\[
+  \text{Total number of keys} = 96 \times 97 = 9312
+\]
 
 
-3. We read English alphabet and get numerical equivalents for B, U, H are 1, 20, and 7. We do equations to solve for a and b.
-To find the encryption and decryption keys, solve the following equations to find a and b. I use Extended Euclidean Algorithm, find a.
-And then use value a to find b.
-\begin{align*}
-  &\text{1. Given equations I use first and second to find a and b:} \\
-  &81 = a \cdot 1 + b \mod 97 \\
-  &71 = a \cdot 20 + b \mod 97 \\
-  &37 = a \cdot 7 + b \mod 97 \\
-\end{align*}
-\begin{align*}
-  &\text{2. Solve for } a \text{ and } b: \\
-  &\text{First eliminate } b \text{ by subtracting the first equation from the second:} \\
-  &(71 - 81) = a \cdot (20 - 1) \\
-  &-10 = 19a \\
-  &19a = -10 \mod 97 \\
-  &19a = 87 \mod 97 \\
-\end{align*}
-\begin{align*}
-  &\text{Now, find } a^{-1} \text{, the multiplicative inverse of } 19 \mod 97 \\
-  &a^{-1} = 19^{-1} \mod 97 \\
-  &a^{-1} = 66 \mod 97 \\
-  & \\
-  &\text{Solve for } a: \\
-  &a = 66 \cdot 87 \mod 97 \\
-  &a = 17 \mod 97 \\
-  & \\
-  &\text{Now solve for } b \text{ using the first equation:} \\
-  &b = 81 - a \cdot 1 \mod 97 \\
-  &b = 81 - 17 \cdot 1 \mod 97 \\
-  &b = 64 \mod 97 \\
-\end{align*}
-\begin{align*}
-  &\text{So, } (a, b) = (17, 64) \mod 97 \\
-  &\text{3. To decrypt } c' = [59, 62, 90], \\
-  &\text{use } m' = a^{-1}(c' - b) \mod 97 \\
-  & \\
-  &\text{First find } a^{-1} \text{, the multiplicative inverse of } a \mod 97: \\
-  &a^{-1} = 17^{-1} \mod 97 \\
-  &a^{-1} = 69 \mod 97 \\
-  & \\
-  &\text{Now decrypt each element of } c': \\
-  &m'_1 = 69(59 - 64) \mod 97 = 69(-5) \mod 97 = 90 \mod 97 = 90 \quad (\text{X}) \\
-  &m'_2 = 69(62 - 64) \mod 97 = 69(-2) \mod 97 = 48 \mod 97 = 48 \quad (\text{Y}) \\
-  &m'_3 = 69(90 - 64) \mod 97 = 69(26) \mod 97 = 88 \mod 97 = 88 \quad (\text{Z}) \\
-\end{align*}
+3. We read English alphabet and get numerical equivalents for B, U, H are 1, 20, and 7.
+We do equations to solve for a and b.
+To find the encryption and decryption keys, solve the following equations to find a and b.
+
+\[
+  \begin{aligned}
+    81 &= a \cdot 1 + b \mod 97, \\
+    71 &= a \cdot 20 + b \mod 97, \\
+    37 &= a \cdot 7 + b \mod 97.
+  \end{aligned}
+\]
+
+Solve for \( a \) and \( b \):
+
+First, eliminate \( b \) by substituting it from the first equation into the third:
+
+\[
+  \begin{aligned}
+    6a + 81 &\equiv 37 \mod 97, \\
+    6a &\equiv -44 \mod 97, \\
+    6a &\equiv 53 \mod 97.
+  \end{aligned}
+\]
+
+Now, find the multiplicative inverse of 53 mod 97, which is \( a^{-1} = 66 \).
+
+\[
+  \begin{aligned}
+    a &= 66 \cdot 53 \mod 97, \\
+    a &= 25 \mod 97.
+  \end{aligned}
+\]
+
+Finally, solve for \( b \) using the first equation:
+
+\[
+  \begin{aligned}
+    b &= 81 - 25 \mod 97, \\
+    b &= 56 \mod 97.
+  \end{aligned}
+\]
+
+So, \( (a, b) = (25, 56) \mod 97 \).
+
+Decrypting the Cipher goes with decryption, \( Dec = (a^{-1}, b) = (66, 56) \).
+
+Decrypt \( c' = [59, 62, 90] \) using \( m' = a^{-1}(c' - b) \mod 97 \):
+
+\[
+  \begin{aligned}
+    m'_1 &= 66 \cdot (59 - 56) \mod 97 = 66 \cdot 3 \mod 97 = 198 \mod 97 = 4, \\
+    m'_2 &= 66 \cdot (62 - 56) \mod 97 = 66 \cdot 6 \mod 97 = 396 \mod 97 = 8, \\
+    m'_3 &= 66 \cdot (90 - 56) \mod 97 = 66 \cdot 34 \mod 97 = 2244 \mod 97 = 13.
+  \end{aligned}
+\]
+
+So, \( m' = [4, 8, 13] \), which corresponds to the airport code "EIN".
+
+
 
 \paragraph{Task 2.} Look carefully at the following frequency diagrams.
 \begin{enumerate}
-    \item Well just like we did in class, by following the patterns and deducting possbilites we could come to a 'certain' conclusion by
-    analyzing the English alphabet frequenzy. I took the probabilties table from 2nd week. Classical ciphers pdf.
+    \item Well just like we did in class, by following the patterns and deducting possibility we could come to a 'certain' conclusion by
+    analyzing the English alphabet frequency.
     \begin{enumerate}
             \item Figure 1: Diagram is identical to Diagram 3 this seems to correspond to a normal distribution, so I would say it
-            represents plaintext . Distribution
+            represents plaintext .
+            Distribution
             of Z, Q and J is >0.2 percent and letters such as E, T and A are most highest frequency.
-            \item Figure 2: Diagram 2. This looks like plain text distribution however, in addition to shifting the frequnzies have also
-            changed places. So it affine cipher.
-      \item Figure 3: Diagram 3 this seems to correspond to a normal distribution, so I would say it represents plaintext. Distribution
+            \item Figure 2: Diagram 2.
+            This looks like plain text distribution however, in addition to shifting the frequencies have also
+            changed places.
+            So it affine cipher.
+      \item Figure 3: Diagram 3 this seems to correspond to a normal distribution, so I would say it represents permutation as we already
+            have one plaintext identified and permutation could look exactly like plaintext because it does not change frequency.
+            Distribution
             of Z, Q and J is >0.2 percent and letters such as E, T and A are most highest frequency.
       \item Figure 4: Diagram 4 -  Vigenère cipher because the keyword causes letters to repeat in the ciphertext, which makes frequency
             more uniform, meaning, it's likely that the key was shorter than the message and letters start to repeat.
       \item Figure 5: Diagram 5 this is shift cipher locations of
-            frequnzies have changed locations but the order is same.
+            frequencies have changed locations but the order is same.
     \end{enumerate}
     \item
     \begin{minipage}{\linewidth}
@@ -274,7 +309,7 @@ I get the following results for $ctx$:
 
 2) If I exclude the very low end of number 0.03 and the high end 0.05 we can see that the majority of letters on average the IC for each
 letter is slightly above 0.04 and the average is $ctx IC = 0.04213$, this leads me to believe that we can assume this Vigenere chipher is
-with keyword length of $l=5$ with somewhat good confidence.
+with keyword length of $l=5$ with somewhat good confidence. (see index of confidence table)
 
 
 \begin{figure}
@@ -403,7 +438,7 @@ FZAQFXWPNKFIKEELMEEGDBTNPAXAHPPLVKITZTUEYBOGYOKXMNTZIMFMPGOAAXXIDDRKIKVDPQQHNRGD
 
 Now find the key by shifting cesar ciphers to reveal something meaningfu. We should see something in english. But that only means it
 would work if the key is infact an english word. So I might not be able to tell if I have found the key or not unless I try evey key on
-the chiphertext to reveal that $ctx'$ is something meaningful.\\
+the chiphertext to reveal that $ctx'$ is something meaningful. Anyway, the answer is key lenght is 5 because statistically \\
 
 \paragraph{Bonus Task} 
 As for the bonus, I don't think encrypting it twice would add exta security. But the added strenght only comes from the fact that it's
