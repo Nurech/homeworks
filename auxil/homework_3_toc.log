@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  14 OCT 2023 06:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  14 OCT 2023 07:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**./homework_3_toc.tex
+(homework_3_toc.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (settings.tex
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -2364,8 +2364,8 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 9.
 (C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.aux)
-\openout1 = `main.aux'.
+(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\homework_3_toc.aux)
+\openout1 = `homework_3_toc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -2470,10 +2470,11 @@ fontenc.def
 File: greek-fontenc.def 2023-08-15 2.4 Common Greek font encoding definitions
 ))
 Package hyperref Info: Link coloring OFF on input line 9.
- (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.out)
-(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.out)
+
+(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\homework_3_toc.out)
+(C:/Users\partsjoo\IdeaProjects\homeworks\auxil\homework_3_toc.out)
 \@outlinefile=\write6
-\openout6 = `main.out'.
+\openout6 = `homework_3_toc.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
@@ -2502,11 +2503,11 @@ File: estonian.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `main.bcf'.
+\openout4 = `homework_3_toc.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.bbl)
+Package biblatex Info: ... file 'homework_3_toc.bbl' found.
+ (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\homework_3_toc.bbl)
 Package biblatex Info: Reference section=0 on input line 9.
 Package biblatex Info: Reference segment=0 on input line 9.
 LaTeX Info: Redefining \microtypecontext on input line 9.
@@ -2550,39 +2551,40 @@ Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 (chapters.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--3
+Underfull \hbox (badness 10000) in paragraph at lines 1--5
 
  []
 
 [1
 
-{C:/Users/partsjoo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+{C:/Users/partsjoo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+[2])
 
 LaTeX Warning: Empty bibliography on input line 20.
 
-[2] (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
+[3] (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\homework_3_toc.aux)
+Package rerunfilecheck Info: File `homework_3_toc.out' has not changed.
 (rerunfilecheck)             Checksum: B684F03EB09E598E284307D550B31E07;94.
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
+Package logreq Info: Writing requests to 'homework_3_toc.run.xml'.
+\openout1 = `homework_3_toc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 64298 strings out of 476334
- 1501152 string characters out of 5786555
- 2444429 words of memory out of 5000000
- 83754 multiletter control sequences out of 15000+600000
- 522526 words of font info for 91 fonts, out of 8000000 for 9000
+ 64330 strings out of 476334
+ 1501668 string characters out of 5786555
+ 2444489 words of memory out of 5000000
+ 83755 multiletter control sequences out of 15000+600000
+ 523826 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,5n,134p,1592b,1777s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,5n,134p,1602b,1777s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 <C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.p
 fb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8
 a.pfb>
-Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\main.pdf (2 page
-s, 39097 bytes).
+Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\homework_3_toc.p
+df (3 pages, 45330 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
+ 38 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
  8213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

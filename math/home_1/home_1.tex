@@ -6,7 +6,7 @@
 \usepackage{appendix}
 
 \usepackage{graphicx}
-\usepackage{amsfonts} 
+\usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{xcolor}
 \usepackage{fdsymbol}
@@ -200,7 +200,7 @@ So, \( m' = [4, 8, 13] \), which corresponds to the airport code "EIN".
 The unicity distance \( U \) for an affine cipher can be calculated using the formula:
 
 \[
-  U = \frac{H(K)}{D}
+  U = \frac{K}{D}
 \]
 
 Where:
@@ -221,7 +221,7 @@ For the English alphabet, \( N = 26 \) and Euler's totient function \( \phi(26) 
 Therefore, \( M = 26 \times 12 = 312 \).
 
 3) Entropy of the Key Space:
-The entropy of the key space \( H(K) \) can be calculated as \( \log_2 312 \approx 8.3 \).
+The entropy of the key space \( K \) can be calculated as $M=$ \( \log_2 312 \approx 8.3 \).
 
 4) Unicity Distance:
 we get:
@@ -446,7 +446,7 @@ Now find the key by shifting cesar ciphers to reveal something meaningfu. We sho
 would work if the key is infact an english word. So I might not be able to tell if I have found the key or not unless I try evey key on
 the chiphertext to reveal that $ctx'$ is something meaningful. Anyway, the answer is key lenght is 5 because statistically \\
 
-\paragraph{Bonus Task} 
+\paragraph{Bonus Task}
 As for the bonus, I don't think encrypting it twice would add exta security. But the added strenght only comes from the fact that it's
 encrypted twice. If the offender expects chiphger text to be encrypted once but it's twice then there would be added benefit. But encrypting a
 message using a Vigenere cipher with a
