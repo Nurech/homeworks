@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="math 1">
-      <change afterPath="$PROJECT_DIR$/auxil/homework_3_toc.aux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auxil/homework_3_toc.bbl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auxil/homework_3_toc.bcf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auxil/homework_3_toc.blg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auxil/homework_3_toc.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auxil/homework_3_toc.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auxil/homework_3_toc.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework3_toc/chapters.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework3_toc/homework_3_toc.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework3_toc/references.bib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework3_toc/settings.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cyber_security_management_ITC8230/homework3_toc/thesis.sty" afterDir="false" />
+    <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="homework 3 toc">
+      <change afterPath="$PROJECT_DIR$/auxil/home_2.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auxil/home_2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auxil/home_2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math/home_2/home_2.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/home_1.log" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/home_1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/main.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.bbl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/main.bcf" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.bcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/main.blg" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.blg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/main.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/math/home_1/home_1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/math/home_1/home_1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/homework_3_toc.blg" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/homework_3_toc.blg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxil/homework_3_toc.log" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/homework_3_toc.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/partsjoo/IdeaProjects/homeworks/cyber_security_management_ITC8230",
+    "last_opened_file_path": "C:/Users/partsjoo/IdeaProjects/homeworks/math",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,13 +57,14 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\cyber_security_management_ITC8230" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\math" />
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\cyber_security_management_ITC8230" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\cyber_security_management_ITC8230\homework1_ciso_roadmap" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework1_cybersecurity_management_ciso_roadmap" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework1_cybersecurity_management_ciso_roadmap\misc" />
@@ -90,7 +77,7 @@
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\privacy_preserving_technologies" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.main">
+  <component name="RunManager" selected="LaTeX.home_2">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -155,7 +142,7 @@
       </texify>
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
+    <configuration name="home_2" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
       <texify>
         <compiler>PDFLATEX</compiler>
         <compiler-path />
@@ -164,15 +151,15 @@
         <viewer-command />
         <compiler-arguments />
         <envs />
-        <main-file>$PROJECT_DIR$/privacy_preserving_technologies/exam/main.tex</main-file>
+        <main-file>$PROJECT_DIR$/math/home_2/home_2.tex</main-file>
         <output-path>$PROJECT_DIR$/out</output-path>
         <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
         <compile-twice>false</compile-twice>
         <output-format>PDF</output-format>
         <latex-distribution>MIKTEX</latex-distribution>
         <has-been-run>true</has-been-run>
-        <bib-run-config>[BibTeX.main bibliography]</bib-run-config>
-        <makeindex-run-config>[Makeindex.main makeglossarieslite]</makeindex-run-config>
+        <bib-run-config>[]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
       </texify>
       <method v="2" />
     </configuration>
@@ -259,20 +246,20 @@
     </configuration>
     <list>
       <item itemvalue="BibTeX.main bibliography" />
+      <item itemvalue="LaTeX.home_2" />
       <item itemvalue="LaTeX.main" />
       <item itemvalue="LaTeX.home_1" />
       <item itemvalue="LaTeX.math_1" />
       <item itemvalue="LaTeX.main (3)" />
-      <item itemvalue="LaTeX.main (2)" />
       <item itemvalue="Makeindex.main makeglossarieslite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="LaTeX.home_2" />
         <item itemvalue="LaTeX.main" />
         <item itemvalue="LaTeX.home_1" />
         <item itemvalue="LaTeX.math_1" />
         <item itemvalue="LaTeX.main (3)" />
-        <item itemvalue="LaTeX.main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +292,11 @@
       <workItem from="1696648864990" duration="90000" />
       <workItem from="1696689097902" duration="786000" />
       <workItem from="1696690892707" duration="4516000" />
-      <workItem from="1697252750009" duration="3985000" />
+      <workItem from="1697252750009" duration="4082000" />
+      <workItem from="1697257089878" duration="2417000" />
+      <workItem from="1697259949150" duration="585000" />
+      <workItem from="1697275183283" duration="592000" />
+      <workItem from="1697806489793" duration="8597000" />
     </task>
     <task id="LOCAL−00001" summary="hw4">
       <created>1681523770099</created>
@@ -410,7 +401,14 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1696689814241</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="homework 3 toc">
+      <option name="closed" value="true" />
+      <created>1697256981733</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1697256981733</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,6 +433,7 @@
     <MESSAGE value="ciso roadmap" />
     <MESSAGE value="math" />
     <MESSAGE value="math 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="math 1" />
+    <MESSAGE value="homework 3 toc" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 3 toc" />
   </component>
 </project>

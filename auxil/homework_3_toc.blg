@@ -1,9 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'homework_3_toc.blg'
-[121] biber-MSWIN64:340> INFO - === 
-[163] Biber.pm:419> INFO - Reading 'homework_3_toc.bcf'
-[273] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[287] bbl.pm:660> INFO - Writing 'homework_3_toc.bbl' with encoding 'UTF-8'
-[287] bbl.pm:763> INFO - Output to homework_3_toc.bbl
-[287] Biber.pm:131> WARN - The file 'homework_3_toc.bcf' does not contain any citations!
-[288] Biber.pm:133> INFO - WARNINGS: 1
+[334] biber-MSWIN64:340> INFO - === 
+[440] Biber.pm:419> INFO - Reading 'homework_3_toc.bcf'
+[722] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[764] bbl.pm:660> INFO - Writing 'homework_3_toc.bbl' with encoding 'UTF-8'
+[765] bbl.pm:763> INFO - Output to homework_3_toc.bbl
+[766] Biber.pm:131> WARN - The file 'homework_3_toc.bcf' does not contain any citations!
+[766] Biber.pm:133> INFO - WARNINGS: 1
