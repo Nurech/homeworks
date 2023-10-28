@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  21 OCT 2023 12:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.25)  28 OCT 2023 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1299,379 +1299,425 @@ File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 [1
 
 {C:/Users/partsjoo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
+Underfull \hbox (badness 10000) in paragraph at lines 119--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
 
  []
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^C (U+0003)
+home_2.tex:181: LaTeX Error: Unicode character ^^C (U+0003)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^\ (U+001C)
+home_2.tex:181: LaTeX Error: Unicode character ^^\ (U+001C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^[ (U+001B)
+home_2.tex:181: LaTeX Error: Unicode character ^^[ (U+001B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^Z (U+001A)
+home_2.tex:181: LaTeX Error: Unicode character ^^Z (U+001A)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^\ (U+001C)
+home_2.tex:181: LaTeX Error: Unicode character ^^\ (U+001C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^\ (U+001C)
+home_2.tex:181: LaTeX Error: Unicode character ^^\ (U+001C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^C (U+0003)
+home_2.tex:181: LaTeX Error: Unicode character ^^C (U+0003)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^\ (U+001C)
+home_2.tex:181: LaTeX Error: Unicode character ^^\ (U+001C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^[ (U+001B)
+home_2.tex:181: LaTeX Error: Unicode character ^^[ (U+001B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^Z (U+001A)
+home_2.tex:181: LaTeX Error: Unicode character ^^Z (U+001A)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^\ (U+001C)
+home_2.tex:181: LaTeX Error: Unicode character ^^\ (U+001C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:179: LaTeX Error: Unicode character ^^\ (U+001C)
+home_2.tex:181: LaTeX Error: Unicode character ^^\ (U+001C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{align*}
+l.181 \end{align*}
                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [2]
-<img.png, id=59, 198.7425pt x 32.12pt>
+<img.png, id=63, 198.7425pt x 32.12pt>
 File: img.png Graphic file (type png)
 <use img.png>
-Package pdftex.def Info: img.png  used on input line 180.
+Package pdftex.def Info: img.png  used on input line 182.
 (pdftex.def)             Requested size: 198.742pt x 32.1199pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--183
 
- []
-
-
-home_2.tex:189: LaTeX Error: Unicode character ⊕ (U+2295)
+home_2.tex:205: LaTeX Error: Unicode character ⊕ (U+2295)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.189 ...'(k, m1||m2) = F(k, m1)||F(k, m2 ⊕ 0^n)
+l.205 ...'(k, m1||m2) = F(k, m1)||F(k, m2 ⊕ 0^n)
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:194: LaTeX Error: Unicode character ⊕ (U+2295)
+home_2.tex:210: LaTeX Error: Unicode character ⊕ (U+2295)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.194 ...(k, m1||m2) = F(k, 0||m1) ⊕ F(k, m2||1)
+l.210 ...(k, m1||m2) = F(k, 0||m1) ⊕ F(k, m2||1)
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:198: LaTeX Error: Unicode character ^^C (U+0003)
+home_2.tex:214: LaTeX Error: Unicode character ^^C (U+0003)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
+l.214 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
                                          
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:198: LaTeX Error: Unicode character ^^\ (U+001C)
+home_2.tex:214: LaTeX Error: Unicode character ^^\ (U+001C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
+l.214 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
                                          
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:198: LaTeX Error: Unicode character ^^[ (U+001B)
+home_2.tex:214: LaTeX Error: Unicode character ^^[ (U+001B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
+l.214 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
                                          
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:198: LaTeX Error: Unicode character ^^Z (U+001A)
+home_2.tex:214: LaTeX Error: Unicode character ^^Z (U+001A)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
+l.214 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
                                          
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:198: LaTeX Error: Unicode character ^^\ (U+001C)
+home_2.tex:214: LaTeX Error: Unicode character ^^\ (U+001C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
+l.214 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
                                          
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-home_2.tex:198: LaTeX Error: Unicode character ^^\ (U+001C)
+home_2.tex:214: LaTeX Error: Unicode character ^^\ (U+001C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
+l.214 [3.3] Result: ^^C^^\^^[^^Z^^L^^\^^\
                                          
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [3 <./img.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 250--252
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
 
  []
+
+
+home_2.tex:294: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.294 \documentclass
+                    {article}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+home_2.tex:295: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.295 \usepackage
+                 {tikz}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+(C:\Users\partsjoo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+
+home_2.tex:298: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 \begin{document}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [4]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 350.
+line 373.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 350.
+(Font)              scaled to size 10.0pt on input line 373.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <7> not available
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 350.
+line 373.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 7.0pt on input line 350.
+(Font)              scaled to size 7.0pt on input line 373.
+ [5]
 LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
-(Font)              scaled to size 12.0pt on input line 359.
+(Font)              scaled to size 12.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
-(Font)              scaled to size 8.0pt on input line 359.
+(Font)              scaled to size 8.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
-(Font)              scaled to size 6.0pt on input line 359.
+(Font)              scaled to size 6.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
-(Font)              scaled to size 12.0pt on input line 359.
+(Font)              scaled to size 12.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
-(Font)              scaled to size 8.0pt on input line 359.
+(Font)              scaled to size 8.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
-(Font)              scaled to size 6.0pt on input line 359.
+(Font)              scaled to size 6.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
-(Font)              scaled to size 12.0pt on input line 359.
+(Font)              scaled to size 12.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
-(Font)              scaled to size 8.0pt on input line 359.
+(Font)              scaled to size 8.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
-(Font)              scaled to size 6.0pt on input line 359.
+(Font)              scaled to size 6.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
-(Font)              scaled to size 12.0pt on input line 359.
+(Font)              scaled to size 12.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
-(Font)              scaled to size 8.0pt on input line 359.
+(Font)              scaled to size 8.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
-(Font)              scaled to size 6.0pt on input line 359.
+(Font)              scaled to size 6.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
-(Font)              scaled to size 12.0pt on input line 359.
+(Font)              scaled to size 12.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
-(Font)              scaled to size 8.0pt on input line 359.
+(Font)              scaled to size 8.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
-(Font)              scaled to size 6.0pt on input line 359.
+(Font)              scaled to size 6.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 359.
+(Font)              scaled to size 12.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 359.
+(Font)              scaled to size 8.0pt on input line 382.
 LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 359.
+(Font)              scaled to size 6.0pt on input line 382.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <8> not available
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 359.
+line 382.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 359.
- [5] [6] (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\home_2.aux)
+(Font)              scaled to size 8.0pt on input line 382.
+ [6] (C:/Users\partsjoo\IdeaProjects\homeworks\auxil\home_2.aux)
 Package rerunfilecheck Info: File `home_2.out' has not changed.
-(rerunfilecheck)             Checksum: 8E74AA71450656D324406169BC8E728D;474.
- ) 
+(rerunfilecheck)             Checksum: 5806987CA7A7291846E1F855591841CE;537.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 298 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 38230 strings out of 476334
- 874061 string characters out of 5786555
- 1867382 words of memory out of 5000000
- 58049 multiletter control sequences out of 15000+600000
+ 38267 strings out of 476334
+ 875133 string characters out of 5786555
+ 1868382 words of memory out of 5000000
+ 58080 multiletter control sequences out of 15000+600000
  670335 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,10n,80p,725b,746s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\partsjoo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/fdsymbol/dpi4
-20\FdSymbolF-Book.pk> <C:\Users\partsjoo\AppData\Local\MiKTeX\fonts/pk/ljfour/p
-ublic/fdsymbol/dpi600\FdSymbolC-Book.pk>{C:/Users/partsjoo/AppData/Local/Progra
-ms/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc} <C:\Users\partsjoo\AppData\
-Local\MiKTeX\fonts/pk/ljfour/public/fdsymbol/dpi420\FdSymbolA-Book.pk> <C:\User
-s\partsjoo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/fdsymbol/dpi600\FdSymbol
-A-Book.pk> <C:\Users\partsjoo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/fdsym
-bol/dpi600\FdSymbolB-Book.pk> <C:\Users\partsjoo\AppData\Local\MiKTeX\fonts/pk/
-ljfour/public/fdsymbol/dpi600\FdSymbolF-Book.pk>{C:/Users/partsjoo/AppData/Loca
-l/Programs/MiKTeX/fonts/enc/dvips/fira/fir_d67aat.enc}{C:/Users/partsjoo/AppDat
-a/Local/Programs/MiKTeX/fonts/enc/dvips/fira/fir_iln36p.enc}<C:/Users/partsjoo/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Use
-rs/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-Ultr
-aLight.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/partsjoo/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/partsjoo/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1000.pfb>
+ 83i,10n,80p,725b,796s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\partsjoo\AppData\Local\MiKTeX\fonts/pk/ljfour/public
+/fdsymbol/dpi420\FdSymbolF-Book.pk> <C:\Users\partsjoo\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/public/fdsymbol/dpi600\FdSymbolC-Book.pk>{C:/Users/partsjoo/AppDat
+a/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc} <C:\Users\par
+tsjoo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/fdsymbol/dpi420\FdSymbolA-Boo
+k.pk> <C:\Users\partsjoo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/fdsymbol/d
+pi600\FdSymbolA-Book.pk> <C:\Users\partsjoo\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/public/fdsymbol/dpi600\FdSymbolB-Book.pk> <C:\Users\partsjoo\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/public/fdsymbol/dpi600\FdSymbolF-Book.pk>{C:/Users/partsjo
+o/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fira/fir_d67aat.enc}{C:/Users/p
+artsjoo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fira/fir_iln36p.enc}<C:/U
+sers/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-Bo
+ld.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira
+/FiraSans-UltraLight.pfb><C:/Users/partsjoo/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/partsjoo/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/partsjoo/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/partsjoo/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/
+partsjoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1000.pfb
+>
 Output written on C:/Users\partsjoo\IdeaProjects\homeworks\out\home_2.pdf (6 pa
-ges, 222523 bytes).
+ges, 230272 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 

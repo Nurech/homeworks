@@ -108,6 +108,7 @@ Thus, for our given texts:
 \[ \Delta(C, C') = n \]
 where \( n \) is the number of letters that changed in the ciphertext due to the modification in the plaintext.
 The limited value of \( n=1 \) suggests limited diffusion in the Vigenère cipher for this example.
+For diffusion, we would want \( n \) to change for more than half of the bits.
 
 \begin{gather*}
     C = \text{{FHKECZDIPQASKAVTECQBMRJ}}\\
@@ -119,7 +120,8 @@ The number of different characters between \( C \) and \( C'' \) can be represen
 where \( m \) is the number of letters that changed in the ciphertext due to the modification in the key.
 Key is now \( MANIC \) instead of \( MAGIC \).
 A relatively larger value of \( m=5 \) suggests \('\)better\('\) confusion in the Vigenère cipher for this example, however
-I would say the statistical properties have not change much regardless of the key modification.\\
+I would say the statistical properties have not change much regardless of the key modification.
+For confusion, we would want \( m \) to change for more than half of the bits.\\
 
 \begin{verbatim}
 [2.1] Encrypted message: FHKECZDIPQASKAVTECQBMRJ
@@ -177,9 +179,23 @@ For the function 3:
   F'(k, m_1 \parallel m_2) &= F(k, \text{"0THEWAND"}) \oplus F(k, \text{"CHOOSER1"}) \\
   \text{Result} &= \text{""}
 \end{align*}
-Text is in hex, so it's not readable. \includegraphics{img}
-This XOR operation provides a more randomized and harder-to-predict output, given two distinct inputs.
-So in my opinion this is the best function of the three and attacker would guess this with more than $\frac{1}{2}$  probability.\\
+Text is in hex, so it's not readable. \includegraphics{img}\\
+\text{Given:}
+\[ F'(k, x\|y) = F(k, 0\|x) \oplus F(k, y\|1) \]
+where \( x, y \in \{0, 1\}^{n-1} \).
+Let's consider a counter-example:
+If the adversary selects \( x = 1^{n-1} \) (all 1s) and \( y = 0^{n-1} \) (all 0s), then the following occurs:
+\[ F'(k, x\|y) = F(k, 01^{n-1}) \oplus F(k, 0^{n-1}1) \]
+The left component becomes:
+\[ F(k, 01^{n-1}) \]
+And the right component becomes:
+\[ F(k, 0^{n-1}1) \]
+Given the bitwise XOR operation, the beginning element will be \( 1 \oplus 1 = 0 \) and the last element will be \( 1 \oplus 1 = 0 \).
+All other elements for both \( x \) and \( y \) remain the same, which means they will also be zero.
+Thus, the function will produce only zeros, making it distinguishable from a random function.
+Hence, \( F' \) does not satisfy the definition of a pseudo-random function when given this adversary's choice.
+
+
 
 \begin{verbatim}
 [3.1] Using F'(k, m) = F(k, m)||0^n
@@ -275,61 +291,68 @@ Code is also in repository: \href{https://github.com/Nurech/js-ekqepc}{\texttt{h
 
 \section{Task}%5
 
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
 
-\begin{tikzpicture}
+\begin{document}
+  \section{Task}
+
+  \begin{tikzpicture}
     % Nodes
-  \node (iv) {IV: $r_0$};
-  \node [below of=iv, node distance=2cm] (m1) {$m_1$};
-  \node [below of=m1, node distance=2cm] (m2) {$m_2$};
-  \node [below of=m2, node distance=2cm] (mn) {$m_n$};
-  \node [right of=iv, node distance=3cm] (e1) {$E(k, m_1)$};
-  \node [below of=e1, node distance=2cm] (e2) {$E(k, m_2)$};
-  \node [below of=e2, node distance=2cm] (en) {$E(k, m_n)$};
-  \node [right of=e1, node distance=3cm] (c1) {$c_1$};
-  \node [below of=c1, node distance=2cm] (c2) {$c_2$};
-  \node [below of=c2, node distance=2cm] (cn) {$c_n$};
+    \node (iv) {IV: $r_0$};
+    \node [below of=iv, node distance=2cm] (m1) {$m_1$};
+    \node [below of=m1, node distance=2cm] (m2) {$m_2$};
+    \node [below of=m2, node distance=2cm] (mn) {$m_n$};
+    \node [right of=iv, node distance=3cm] (e1) {$E(k, m_1)$};
+    \node [below of=e1, node distance=2cm] (e2) {$E(k, m_2)$};
+    \node [below of=e2, node distance=2cm] (en) {$E(k, m_n)$};
+    \node [right of=e1, node distance=3cm] (c1) {$c_1$};
+    \node [below of=c1, node distance=2cm] (c2) {$c_2$};
+    \node [below of=c2, node distance=2cm] (cn) {$c_n$};
 
-  % Paths
-  \path [->] (iv) edge (e1);
-  \path [->] (m1) edge (e1);
-  \path [->] (m2) edge (e2);
-  \path [->] (mn) edge (en);
-  \path [->] (e1) edge node[above] {$\oplus$} (c1);
-  \path [->] (c1) edge (e2);
-  \path [->] (e2) edge node[above] {$\oplus$} (c2);
-  \path [->] (c2) edge (en);
-  \path [->] (en) edge node[above] {$\oplus$} (cn);
-\end{tikzpicture}
-\subsection*{Decryption Process}
+    % Paths
+    \path [->] (iv) edge (e1);
+    \path [->] (m1) edge (e1);
+    \path [->] (m2) edge (e2);
+    \path [->] (mn) edge (en);
+    \path [->] (e1) edge node[above] {$\oplus$} (c1);
+    \path [->] (c1) edge (e2);
+    \path [->] (e2) edge node[above] {$\oplus$} (c2);
+    \path [->] (c2) edge (en);
+    \path [->] (en) edge node[above] {$\oplus$} (cn);
+  \end{tikzpicture}
 
-XOR is its own inverse, so the decryption process is almost identical to the encryption process but in reverse order.
-To decrypt you would do the following:
+  \subsection*{Decryption Process}
 
-\begin{tikzpicture}
-  % Nodes
-  \node (iv) {IV: $r_0$};
-  \node [below of=iv, node distance=2cm] (c1) {$c_1$};
-  \node [below of=c1, node distance=2cm] (c2) {$c_2$};
-  \node [below of=c2, node distance=2cm] (cn) {$c_n$};
-  \node [right of=iv, node distance=3cm] (d1) {$D(k, c_1)$};
-  \node [below of=d1, node distance=2cm] (d2) {$D(k, c_2)$};
-  \node [below of=d2, node distance=2cm] (dn) {$D(k, c_n)$};
-  \node [right of=d1, node distance=3cm] (m1) {$m_1$};
-  \node [below of=m1, node distance=2cm] (m2) {$m_2$};
-  \node [below of=m2, node distance=2cm] (mn) {$m_n$};
+  XOR is its own inverse, so the decryption process is almost identical to the encryption process but in reverse order.
+  To decrypt you would do the following:
 
-  % Paths
-  \path [->] (iv) edge (d1);
-  \path [->] (c1) edge (d1);
-  \path [->] (c2) edge (d2);
-  \path [->] (cn) edge (dn);
-  \path [->] (d1) edge node[above] {$\oplus$} (m1);
-  \path [->] (m1) edge (d2);
-  \path [->] (d2) edge node[above] {$\oplus$} (m2);
-  \path [->] (m2) edge (dn);
-  \path [->] (dn) edge node[above] {$\oplus$} (mn);
-\end{tikzpicture}
-\subsection*{Decryption Process}
+  \begin{tikzpicture}
+    % Nodes
+    \node (iv) {IV: $r_0$};
+    \node [below of=iv, node distance=2cm] (c1) {$c_1$};
+    \node [below of=c1, node distance=2cm] (c2) {$c_2$};
+    \node [below of=c2, node distance=2cm] (cn) {$c_n$};
+    \node [right of=iv, node distance=3cm] (d1) {$D(k, c_1)$};
+    \node [below of=d1, node distance=2cm] (d2) {$D(k, c_2)$};
+    \node [below of=d2, node distance=2cm] (dn) {$D(k, c_n)$};
+    \node [right of=d1, node distance=3cm] (m1) {$m_1$};
+    \node [below of=m1, node distance=2cm] (m2) {$m_2$};
+    \node [below of=m2, node distance=2cm] (mn) {$m_n$};
+
+    % Paths
+    \path [->] (iv) edge (d1);
+    \path [->] (c1) edge (d1);
+    \path [->] (c2) edge (d2);
+    \path [->] (cn) edge (dn);
+    \path [->] (d1) edge node[above] {$\oplus$} (m1);
+    \path [->] (m1) edge (d2);
+    \path [->] (d2) edge node[above] {$\oplus$} (m2);
+    \path [->] (m2) edge (dn);
+    \path [->] (dn) edge node[above] {$\oplus$} (mn);
+  \end{tikzpicture}
+
 
 
 
@@ -339,7 +362,7 @@ To decrypt you would do the following:
 Given that one output operation takes a constant amount of time (let's call this constant \(c\)), for \(n\) integers, outputting each 5 times will take \(5nc\) time.
 
 \begin{align*}
-  \text{Time for 1} & : 5nc = c \times O(n) = O(n)
+  \text{Time for 1} & : 5nc = c \times O(n) = O(5 \times n)
 \end{align*}
 
 \subsection*{6.2: Apply bubble sort}
@@ -356,32 +379,37 @@ Let's take a simple reversed array of size 4 for illustration: \( \{4, 3, 2, 1\}
   \text{Time for 2} & : \frac{n(n-1)}{2} = O(n^2)
 \end{align*}
 
-\subsection*{6.3: Find greatest common reminder of 2\textsuperscript{nd} and 4\textsuperscript{th} elements of the array}
-The operation of fetching two fixed positions (like 2\textsuperscript{nd} and 4\textsuperscript{th} elements) is \(O(1)\), as array
-access is instant.
-The Euclidean algorithm's time complexity for GCD is roughly proportional to the number of digits of the smaller number.
-The number of steps to calculate the GCD of two natural numbers, \(a\) and \(b\), may be denoted by \(T(a, b)\). If \(g\) is the GCD of \(a\) and \(b\), then \(a = mg\) and \(b = ng\) for two coprime numbers \(m\) and \(n\).
-Hence,
-\begin{align*}
-  T(a, b) = T(m, n)
-\end{align*}
+  \subsection*{6.3: Find the greatest common divisor of the 2\textsuperscript{nd} and 4\textsuperscript{th} elements of the array}
 
-The recursive nature of the Euclidean algorithm yields:
-\begin{align*}
-  T(a, b) & = 1 + T(b, r_0) \\
-  & = 2 + T(r_0, r_1) \\
-  & \vdots \\
-  & = N + 1
-\end{align*}
-where \(T(x, 0) = 0\) by assumption.
+  Accessing specific positions within an array, such as the 2\textsuperscript{nd} and 4\textsuperscript{th} elements, is a direct operation with constant time complexity, denoted as \(O(1)\).
+  For the computation of the GCD, the Euclidean algorithm is typically employed.
+  The worst-case time complexity of the Euclidean algorithm is bounded by the number of digits in the smaller number.
+  Let's denote the time complexity of the algorithm by \(T(a, b)\), where \(a\) and \(b\) are the two numbers with \(a > b\).
 
-Worst case explanation taken from \href{https://en.wikipedia.org/wiki/Euclidean_algorithm#Algorithmic_efficiency}{\texttt{wikipedia}}, also
-tells us that Euclidean algorithm always requires fewer than \(O(h)\) divisions, where \(h\) is the number of digits in the smaller
-number \(b\). since $O(1) < O(b)$ O complexity is:
+  \begin{equation}
+    T(a, b) = 1 + T(b, a \mod b)
+  \end{equation}
 
-\begin{align*}
-  \text{Time for Step 3} & : O(b)
-\end{align*}
+  The equation above illustrates the recursive nature of the Euclidean algorithm.
+  The worst-case scenario occurs when every iteration reduces the number by a constant factor.
+  This corresponds to the Fibonacci sequence, as demonstrated by \href{https://en.wikipedia.org/wiki/Lam%C3%A9%27s_theorem#Proof}{\texttt{Lamé's theorem}}.
+  Given Lamé's theorem, the number of steps required is bounded by the index of the Fibonacci number that is closest to \(b\).
+  If this index is \(h\), then:
+
+  \begin{equation}
+    F_h \approx \phi^h \Rightarrow h \approx \log_{\phi} b
+  \end{equation}
+
+  Where \( \phi \) is the golden ratio.
+  Therefore, the time complexity can be expressed in terms of the logarithm:
+
+  \begin{equation}
+    \text{Time for Step 3} : O(\log b)
+  \end{equation}
+
+  In essence, the \(O(\log b)\) complexity arises because the number of divisions required by the Euclidean algorithm is at
+  most proportional to the number of digits in \(b\), which scales logarithmically with \(b\).
+
 
 
 \section{Task Bonus}
