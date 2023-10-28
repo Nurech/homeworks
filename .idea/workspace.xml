@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="753987e3-9da7-4100-b64f-b3649a479c79" name="Changes" comment="home 2 math">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/home_2.aux" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/home_2.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auxil/home_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/home_2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auxil/home_2.out" beforeDir="false" afterPath="$PROJECT_DIR$/auxil/home_2.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/math/home_2/home_2.tex" beforeDir="false" afterPath="$PROJECT_DIR$/math/home_2/home_2.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +66,11 @@
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\homework1_cybersecurity_management_ciso_roadmap\misc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\math\home_2" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\cyber_security_management_ITC8230\homework3_toc" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\math\home_1" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\math" />
       <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\cyber_security_management_ITC8230\homework1_ciso_roadmap" />
-      <recent name="C:\Users\partsjoo\IdeaProjects\homeworks\privacy_preserving_technologies" />
     </key>
   </component>
   <component name="RunManager" selected="LaTeX.home_2">
@@ -295,7 +293,8 @@
       <workItem from="1697259949150" duration="585000" />
       <workItem from="1697275183283" duration="592000" />
       <workItem from="1697806489793" duration="22242000" />
-      <workItem from="1698495388748" duration="2749000" />
+      <workItem from="1698495388748" duration="4608000" />
+      <workItem from="1698503225872" duration="1334000" />
     </task>
     <task id="LOCAL−00001" summary="hw4">
       <created>1681523770099</created>
@@ -414,7 +413,14 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1697879711665</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="home 2 math">
+      <option name="closed" value="true" />
+      <created>1698498165808</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1698498165808</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

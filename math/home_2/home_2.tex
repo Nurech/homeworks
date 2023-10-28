@@ -413,28 +413,58 @@ Let's take a simple reversed array of size 4 for illustration: \( \{4, 3, 2, 1\}
 
 
 \section{Task Bonus}
-OTP (One Time Pad) encryption, when used correctly, provides perfect secrecy.
-However, when applied in CBC mode, its properties change.
-In CBC mode, each block of plaintext is XORed with the previous ciphertext block before being encrypted with the OTP.
-The first block of plaintext is XORed with an initialization vector (IV).
-Thus, if an adversary knows one plaintext block and its corresponding ciphertext block, he can infer information about the next plaintext block.
-Code encrypts both \(m_0\) and \(m_1\) in CBC mode using OTP.
-Then, the adversary attacks by computing the encryption of \(m_0\) and
-comparing it with the received ciphertext to infer which message was encrypted first.
 
-\begin{verbatim}
-[BONUS] m0 string: Hello
-[BONUS] m1 string: World
-[BONUS] key: supersecretkey
-[BONUS] iv: 12345
-[BONUS] otpCbcEncrypt with: Hello+World supersecretkey 12345
-[BONUS] CipherText:"/=(.(>#)
-[BONUS] cipherM0:"/=(
-[BONUS] cipherText.slice(0, iv.length):"/=(
-[BONUS] m0(1st block) has been encrypted.
-\end{verbatim}
+  Consider the security games as shown in Figure 1. The encryption scheme can be considered secure if
+  \[ \Pr[b = 1 : \text{Game 0}] - \Pr[b = 1 : \text{Game 1}] \leq \varepsilon \]
+  where \( \varepsilon \) is negligible. This means that no adversary should be able to differentiate between the two games based on the encryption of messages \( m_0 \) and \( m_1 \).
 
-Proof can be seen in code: \href{https://stackblitz.com/edit/js-ekqepc?devtoolsheight=80&file=bonus.js&hideDevTools=false}{\texttt{stackblitz bonus}}\\
-Code is also in repository: \href{https://github.com/Nurech/js-ekqepc}{\texttt{here}}
+  However, let's consider the following attack:
+
+  \begin{enumerate}
+    \item The adversary prepares two messages, \( m_0 \) and \( m_1 \), both two blocks in length.
+    \item These messages are sent to the challenger.
+    \item The challenger generates a one-block long key using \( k \leftarrow \text{KeyGen()} \).
+    \item The challenger also generates a random initialization vector (IV).
+    \item The challenger randomly chooses between the two messages, \( m_0 \) or \( m_1 \), to encrypt.
+    \item Using the selected key and IV, the challenger encrypts the chosen message in CBC mode.
+    \item The resulting ciphertext along with the IV is then sent back to the adversary.
+  \end{enumerate}
+
+  In this scenario, when the OTP is used in CBC mode, the adversary can exploit the chaining property.
+  Specifically, if the adversary knows a block of plaintext and its corresponding ciphertext, information about the subsequent plaintext block can be inferred.
+  Given that the adversary prepared the messages and knows their content, they can attempt to decrypt the received ciphertext using the IV and the known plaintext block.
+  If the decryption matches one of the prepared messages, the adversary can determine which message was encrypted by the challenger.
+  This breaks the security definition, as the adversary can now differentiate between Game 0 and Game 1, making the difference in probabilities larger than the negligible \( \varepsilon \).
+  Therefore, the OTP in CBC mode fails to meet the security definition as presented in the security games.
+
+  Let's consider two messages \( m_0 \) and \( m_1 \) that are both two blocks in length:
+  \begin{align*}
+    m_0 &= [P_0, P_1] \\
+    m_1 &= [P_2, P_3]
+  \end{align*}
+
+  When encrypting using CBC mode with OTP, the encryption for a block can be represented as:
+  \[ C_i = P_i \oplus C_{i-1} \]
+  where \( C_{i-1} \) is the ciphertext of the previous block and \( \oplus \) denotes the XOR operation.
+
+  Given a random Initialization Vector (IV), the encryption of the first block is:
+  \[ C_0 = P_0 \oplus \text{IV} \]
+  for \( m_0 \) and:
+  \[ C_0' = P_2 \oplus \text{IV} \]
+  for \( m_1 \).
+
+  Now, for the second block:
+  \[ C_1 = P_1 \oplus C_0 \]
+  for \( m_0 \) and:
+  \[ C_1' = P_3 \oplus C_0' \]
+  for \( m_1 \).
+
+  If an adversary knows \( P_0 \) and \( C_0 \), they can compute:
+  \[ P_1 \oplus C_1 = P_1 \oplus (P_1 \oplus C_0) = C_0 \]
+  Similarly, for \( m_1 \):
+  \[ P_3 \oplus C_1' = P_3 \oplus (P_3 \oplus C_0') = C_0' \]
+
+  Hence, by observing the ciphertexts, the adversary can distinguish between the encryptions of \( m_0 \) and \( m_1 \) based on the derived values of \( C_0 \) and \( C_0' \), thus breaking the security definition.
+
 
 \end{document}
